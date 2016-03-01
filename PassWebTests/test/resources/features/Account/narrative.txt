@@ -1,0 +1,3 @@
+In order to establish and maintain customer information
+As a sales user
+I should be able to create different types of approved accounts with valid addresses

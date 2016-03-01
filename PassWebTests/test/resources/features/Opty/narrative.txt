@@ -1,0 +1,7 @@
+Script for Savvis Opportunity Record Type Calculation Changes
+
+Verifying Savvis Opty sub type with product type 
+
+
+@SubmitCreditCheck feature file
+Credit check should be automatically approved if the Credit Check Override Label is Yes	
