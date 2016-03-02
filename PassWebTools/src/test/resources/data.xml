@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container name="root">
+	<container name="Environments">
+		<container name="ITV1">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="sso-console"
+				value="http://ctlcentral-itv.test.qintra.com/portal/site/qcentral/index.jsp?epi-content=LOGIN&amp;SFA=true" />
+			<field name="passweb-url" value="http://passwebtest1.dev.qintra.com" />
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.itv1"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="Commercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.itv1"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.itv1"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst2" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="PassWebSalesUser">
+				<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+				<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+			</container>
+			<container name="PassWebPOMUser">
+				<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+				<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+			</container>
+			<container name="RefreshData">
+				<field name="approved_commercial_account" value="TEST SALES ACCOUNT"></field>
+			</container>
+		</container>
+		<container name="INT2">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="passweb-url" value="http://passwebe2e.dev.qintra.com/"></field>
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="bmipilot.commsalesrep@centurylink.com.int2"
+						type="mandatory" />
+					<field name="tbx_password" value="Cpqprod123" type="mandatory" />
+
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="PassWebSalesUser">
+				<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+				<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+			</container>
+			<container name="PassWebPOMUser">
+				<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+				<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+			</container>
+		</container>
+		<container name="ITV2">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="sso-console" value="https://ctl--itv2.cs28.my.salesforce.com"></field>
+			<field name="passweb-url" value="http://passwebtest2.dev.qintra.com" />
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+					<field name="tbx_passweb_username" value="slstst1" type="mandatory" />
+					<field name="tbx_passweb_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="POM">
+					<field name="tbx_user_name" value="sfatst52" type="mandatory" />
+					<field name="tbx_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="Commercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep1" />
+				</container>
+				<container name="AnotherCommercial">
+					<field name="tbx_username" value="slstst2@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep2" />
+				</container>
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOpSU">
+					<field name="tbx_username" value="central.salesopssu@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CareOrderCoordinator">
+					<field name="tbx_username" value="care.orderCoordinator1@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="POM Analyst">
+					<field name="tbx_username" value="pom.analyst@centurylink.com.itv2"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="PassWebSalesUser">
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="PassWebPOMUser">
+					<field name="tbx_passweb_username" value="sfatst52" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst1" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="POM">
+					<field name="tbx_user_name" value="sfatst52" type="mandatory" />
+					<field name="tbx_password" value="2013Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="RefreshData">
+				<field name="approved_commercial_account" value="TEST SALES ACCOUNT"></field>
+				<field name="approved_commercial_account_with_mcid" value="WELLS FARGO AND COMPANY"></field>
+				<field name="commercial_account_for_owner_transfer" value="Test_acc_trans"></field>
+				<field name="unapproved_commercial_account" value="Comm_Account_0806_150206"></field>
+				<field name="commercial_opty" value="Auto_Opty_0806_145334"></field>
+				<field name="cpq_commercial_opty" value="CPQ_Comm_Opty_0825_105000"></field>
+			</container>
+		</container>
+		<container name="ITV3">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="sso-console" value="https://ctl--itv3.cs8.my.salesforce.com"></field>
+			<field name="passweb-url" value="http://passwebtest3.dev.qintra.com" />
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.itv3"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="POM Analyst">
+					<field name="tbx_username" value="pom.analyst@centurylink.com.itv3"
+						type="mandatory" />
+					<field name="tbx_password" value="2016Clink" type="mandatory" />
+				</container>
+				<container name="Commercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.itv3"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.itv3"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="PassWebSalesUser">
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="PassWebPOMUser">
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst1" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="RefreshData">
+				<field name="approved_commercial_account" value="TEST SALES ACCOUNT"></field>
+				<field name="commercial_opty" value="LQ_Opty_0715_165556"></field>
+				<field name="savvis_opty_sub_type_new_service" value="Auto_Opty_0622_154135"></field>
+				<field name="savvis_opty_sub_type_retention" value="Auto_Opty_01"></field>
+				<field name="savvis_opty_sub_type_product_migration" value="Auto_Opty_02"></field>
+			</container>
+		</container>
+		<container name="E2E">
+			<field name="sfa-url" value="http://test.salesforce.com"></field>
+			<field name="sso-console" value="https://ctl--e2e.cs24.my.salesforce.com"></field>
+			<field name="passweb-url" value="http://passwebe2e.dev.qintra.com/" />
+			<container name="LoginPage">
+				<container name="Admin">
+					<field name="tbx_username" value="ramu.vairavan@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="Ramu1234" type="mandatory" />
+					<field name="tbx_passweb_username" value="slstst1" type="mandatory" />
+					<field name="tbx_passweb_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="POM">
+					<field name="tbx_user_name" value="sfatst52" type="mandatory" />
+					<field name="tbx_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="Commercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep1" />
+				</container>
+				<container name="AnotherCommercial">
+					<field name="tbx_username" value="slstst1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+					<field name="first_name" value="Test" />
+					<field name="last_name" value="SalesRep2" />
+				</container>
+				<container name="ComSalesOp">
+					<field name="tbx_username" value="central.salesops1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="ComSalesOpSU">
+					<field name="tbx_username" value="central.salesopssu@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="CareOrderCoordinator">
+					<field name="tbx_username" value="care.orderCoordinator1@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="POM Analyst">
+					<field name="tbx_username" value="pom.analyst@centurylink.com.e2e"
+						type="mandatory" />
+					<field name="tbx_password" value="2014Clink" type="mandatory" />
+				</container>
+				<container name="PassWebSalesUser">
+					<field name="tbx_passweb_username" value="sfatst53" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+				<container name="PassWebPOMUser">
+					<field name="tbx_passweb_username" value="sfatst52" type="mandatory" />
+					<field name="tbx_passweb_password" value="2013Clink" type="mandatory" />
+				</container>
+			</container>
+			<container name="SSOLoginPage">
+				<container name="ssocommercial">
+					<field name="tbx_user_name" value="slstst1" type="mandatory" />
+					<field name="tbx_password" value="2015Clink" type="mandatory" />
+				</container>
+				<container name="POM">
+					<field name="tbx_user_name" value="sfatst52" type="mandatory" />
+					<field name="tbx_password" value="2013Clink" type="mandatory" />
+				</container>
+				
+			</container>
+			<container name="RefreshData">
+				<field name="approved_commercial_account" value="TEST SALES ACCOUNT"></field>
+				<field name="approved_commercial_account_with_mcid" value="WELLS FARGO AND COMPANY"></field>
+				<field name="commercial_account_for_owner_transfer" value="Test_acc_trans"></field>
+				<field name="unapproved_commercial_account" value="Comm_Account_0806_150206"></field>
+				<field name="commercial_opty" value="Auto_Opty_0806_145334"></field>
+				<field name="cpq_commercial_opty" value="CPQ_Comm_Opty_0825_114700"></field>
+			</container>
+		</container>
+	</container>
+	<container name="CommonData">
+		<container name="QuotationEditPage">
+			<field name="tbx_quote_description" value="Selenium testing"></field>
+			<field name="ddl_discount_levels" value="EZ J**"></field>
+		</container>
+		<container name="SFA">
+		<field name ="nsp" value="NSP-185310"></field>
+		</container>
+		<container name="PassWebHomePage">
+			<field name="tbx_NSP_Number" value="NSP-185310"></field>
+			<field name="ddl_comp_position" value="Other" />
+			<field name="ddl_comp_company" value="Level3" />
+			<field name="ddl_version"   value="2" />
+			<field name="tbx_quotePP" value="30150508283527" />
+			<field name="tbx_quoteQVO" value="20001891" />
+			<field name="Requested MRR" value="600" />
+			<field name="Requested NRR" value="0" />
+		</container>
+		<container name="UpdateKeyFieldsPage">
+		   <container name="Metro Ethernet (LCTL)">
+		    <field name="tbx_Affiliated_Company" value="LCTL"/>
+		    <field name="tbx_State_(In_Region)"  value="WY"/>
+		    <field name="tbx_Product_Type" value="Metro"/>
+		    <field name="tbx_Port_Speed" value="10/100 Mbps Port"/>
+		    <field name="tbx_Bandwidth_Profile" value="10 Mbps"/>
+		    <field name="tbx_Service_Description" value="E-LAN"/>
+		    <field name="tbx_Service_Type" value="EVC"/>
+		  </container>
+		  <container name="Dedicated IP Bundle (LCTL)">
+		    <field name="tbx_Affiliated_Company" value="LCTL"/>
+		    <field name="tbx_State_(In_Region)"  value="WY"/>
+		    <field name="tbx_Zone" value="N/A"/>
+		    <field name="tbx_Product_Type" value="Metro"/>
+		    <field name="tbx_Bandwidth_Profile" value="3M Ethernet"/>
+		    <field name="tbx_Hardware" value="Adtran 3448"/>
+		    <field name="tbx_Maintenance_Type" value="7x24"/>
+		    </container>
+		    <container name="Dedicated IP Port (LCTL)">
+		    <field name="tbx_Affiliated_Company" value="LCTL"/>
+		    <field name="tbx_State_(In_Region)"  value="WY"/>
+		    <field name="tbx_Zone"              value="N/A"/>
+		    <field name="tbx_Loop_Speed" value="Ethernet"/>
+		    <field name="tbx_Service_Speed" value="10 Mbps"/>
+		    </container>
+		     <container name="Metro Ethernet (LEQ)">
+		    <field name="tbx_Affiliated_Company" value="LEQ"/>
+		    <field name="tbx_State_(In_Region)"  value="WA"/>
+		    <field name="tbx_Product_Type" value="Classic"/>
+		    <field name="tbx_Port_Speed" value="10/100 Mbps Port"/>
+		    <field name="tbx_Bandwidth_Profile" value="10 Mbps"/>
+		    <field name="tbx_Service_Description" value="E-LAN"/>
+		    <field name="tbx_Service_Type" value="EVC"/>
+		  </container>
+		   <container name="Dedicated IP Bundle (LEQ)">
+		    <field name="tbx_Affiliated_Company" value="LEQ"/>
+		    <field name="tbx_State_(In_Region)"  value="WY"/>
+		    <field name="tbx_Zone"              value="N/A"/>
+		    <field name="tbx_Product_Type" value="Classic"/>
+		    <field name="tbx_Bandwidth_Profile" value="10M Ethernet"/>
+		    <field name="tbx_Hardware" value="Adtran 3448"/>
+		    <field name="tbx_Maintenance_Type" value="7x24"/>
+		    </container>
+		    <container name="Optical Wavelength Service (QC)">
+              <field name="tbx_Location_A_Rate_Element" value = "Optical Channel"></field>
+              <field name="tbx_Location_Z_Rate_Element" value = "Optical Channel"></field>
+               <field name="tbx_Bandwidth_Profile" value = "Fast Ethernet - Unprotected"></field>
+            </container>
+            <container name="Metro Ethernet (QC)">
+            <field name="tbx_Affiliated_Company" value="QC"/>
+		    <field name="tbx_State_(In_Region)"  value="WY"/>
+		    <field name="tbx_Product_Type" value="Metro"/>
+		    <field name="tbx_Port_Speed" value="10/100 Mbps Port"/>
+		    <field name="tbx_Bandwidth_Profile" value="10 Mbps"/>
+		    <field name="tbx_Service_Description" value="Service Multiplexer Port"/>
+		    <field name="tbx_Service_Type" value="EVC"/>"
+            </container>
+            <container name="Conferencing (QCC)">
+             <field name="tbx_Conferencing_Type" value = "Reservationless"></field>
+             <field name="tbx_Conferencing_Service" value = "Toll Free Dial In"></field>
+             <field name="tbx_Conferencing_Sub-Svc_/_Geo_if_Applicable" value = "n/a"></field>
+            </container>
+            <container name="iQ Standard (QCC)">
+             <field name= "tbx_Port_Type" value = "Internet"></field>
+             <field name="tbx_Billing_Type" value = "Flat"></field>
+             <field name="tbx_Loop_Speed" value = "DS-1"></field>
+             <field name="tbx_Service_Speed" value ="1.5 Mbps"></field>
+            </container>
+            <container name="iQ Bundle (QCC)">
+		    <field name="tbx_Port_Type" value="Internet"></field>
+		    <field name="tbx_Bandwidth_Profile" value="DS-1"></field>
+		    <field name="tbx_Package_Type" value="Standard"></field>
+		    <field name="tbx_Maintenance_Type" value="24x7"></field>
+		    <field name="tbx_Hardware" value="Adtran"></field>
+		    </container>
+            <container name="LD Voice - Domestic (QCC)">
+		    <field name="tbx_Call_Method" value ="Calling Card"></field>
+		    <field name="tbx_Geography" value ="Intrastate"></field>
+		    <field name="tbx_Traffic_type" value ="DED"></field>
+		    <field name="tbx_Location" value ="IA"></field>
+		    <field name="tbx_Origination/Termination" value ="In/Outbound"></field>
+		    </container>
+		    <container name="LD Voice - International (QCC)">
+		    <field name="tbx_Call_Method" value="Calling Card - International to US"></field>
+		    <field name="tbx_Location/Country" value="Germany"></field>
+		    <field name="tbx_Call_Type" value="N/A"></field>
+		    <field name="tbx_Traffic Type" value="N/A"></field>
+		    </container>
+		    <container name="SIP Trunk (QCC)">
+		    <field name="tbx_Session_Type" value="Local"></field>
+		    <field name="tbx_TN_Type" value="Standard"></field>
+		    <field name="tbx_Rate_Center_State_Code" value="IA"></field>
+		    <field name="tbx_Rate_Center" value="IOWA CITY"></field>
+		    <field name="tbx_Ancillary_Service" value="SIP REFER (Per Usage Session)"></field>
+		    <field name="tbx_Type" value="MRC"></field>
+		    </container>
+		    <container name="E-Line (QCC)">
+		    <field name="tbx_Circuit_Type" value="Metro"></field>
+		    <field name="tbx_Access_Speed" value="5 Mbps"></field>
+		    <field name="tbx_Service_Speed" value="5 Mbps"></field>
+		    </container> 
+		    <container name="Private Line Domestic (QCC)">
+		    <field name="tbx_Circuit_Type" value="Domestic"></field>
+		    <field name="tbx_Access_Speed" value="DS-1"></field>
+		    <field name="tbx_Service_Speed" value="1544 Kbps"></field>
+		    </container>
+		    <container name="IQ SIP (QCC)">
+		    <field name="tbx_SIP_Session_Type" value="Standard"></field>
+		    <field name="tbx_Use_LD_Session_Bucket?" value="Use Bucket"></field>
+		    </container>
+		    
+		</container>
+		<container name="MassUpdateFieldsPage">
+		   <field name="tbx_Requested_MRR" value="800"/>
+		   <field name="tbx_Requested_NRR" value="0"/>
+		   <field name="tbx_Approved_MRR" value = "900"/>
+		   <field name="tbx_Approved_NRR" value = "0"/>
+		   <field name="tbx_CNDC_ID" value="2015clink"/>
+		   <field name="tbx_NPANXX" value="555555"/>
+		   <field name="tbx_Address_-_Full" value="801 E Iowa Ave Indianola IA 50125"/>
+		   <field name="tbx_Location_A_NPANXX" value="50309"/>
+		   <field name="tbx_Location_Z_NPANXX" value="555555"/>
+		   <field name="tbx_Mileage" value="5"/>
+		   <field name="tbx_Address_Location_A" value="935 St des moines, IA, 50309" />
+		   <field name="tbx_Address_Location_Z" value="1060N MAIN ST, CASPER, WY 555555"/>
+		   <field name="tbx_Quantity_of_Monthly_Minutes" value ="150000"/>
+		   <field name="tbx_Requested_Price_Per_Minute" value = "0.04"/>
+		   <field name="tbx_Session_Quantity" value= "40"></field>
+		   <field name="tbx_Quantity" value="40"></field>
+		   </container>
+	    <container name="GridFields">
+			<field name="tbx_Configuration" value="Ring Configuration" />
+		   	<field name="tbx_State_(In_Region)"  value="WY"/>
+		   	<field name="tbx_Element"  value="Amplifier Node"/>
+		   	<field name="tbx_Class_of_Service" value = "Intrastate"></field>
+		   	<field name="tbx_Location_Name" value = "Littleton CO"></field>
+		   	<field name="tbx_Location_Name" value = "Littleton CO"></field>
+		   	<container name="Metro Ethernet (LEQ)">
+		   	<field name="tbx_Service_Type" value = "QoS Gold"></field>
+		    <field name="tbx_Service_Description" value = "4 Mbps"></field>
+		    </container>
+		    <container name="Metro Ethernet (QC)">
+		    <field name="tbx_Service_Type" value ="QoS"></field>
+		    <field name="tbx_Service_Description" value ="5 Mbps"></field>
+		    </container>
+		    <container name="iQ Standard (QCC)">
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		    <field name="tbx_Type" value="Primary"></field>
+		    <field name="tbx_Loop_Type" value = "Special Access"></field>
+		    </container>
+		     <container name="iQ Bundle (QCC)">
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		    <field name="tbx_Type" value="Primary"></field>
+		    <field name="tbx_Loop_Type" value = "Special Access"></field>
+		    </container>
+		    <container name="E-Line (QCC)">
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		    <field name="tbx_Type" value="Primary"></field>
+		    <field name="tbx_Loop_Type" value = "Special Access"></field>
+		    </container>
+		    <container name="LD Voice - Domestic (QCC)">
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		    <field name="tbx_ALOC_in_seconds" value ="9000"></field>
+		    <field name="tbx_Quantity_of_Monthly_Minutes" value ="15000"></field>
+		    <field name="tbx_Type" value="Primary"></field>
+		    <field name="tbx_Loop_Type" value = "Special Access"></field>
+		    </container>
+		    <container name="LD Voice - International (QCC)">
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		    <field name="tbx_Type" value="Primary"></field>
+		    <field name="tbx_Loop_Type" value = "Special Access"></field>
+		    </container>
+		    <container name="Private Line Domestic (QCC)">
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		    <field name="tbx_Type" value="Primary"></field>
+		    <field name="tbx_Loop_Type" value = "Special Access"></field>
+		    </container>
+		    <container name="SIP Trunk (QCC)">
+		    <field name="tbx_VQT_Qualification" value="Yes"></field>
+		    <field name="tbx_Street" value = "801 E Iowa Ave"></field>
+		    <field name="tbx_City" value = "Indianola"></field>
+		    <field name="tbx_State" value = "IA"></field>
+		    <field name="tbx_Postal_Code" value = "515961"></field>
+		 </container>
+		 <container name="BigMacOpty">
+			<field name="bigmac_opty" value="CPQ Test" />
+			<field name="bigmac_quote_id" value="396310" />
+		</container>
+		<container name="CommercialAccountEditPage">
+			<container name="AccountInformation">
+				<field name="tbx_account_name" value="DateTime:Comm_Account"
+					type="mandatory"></field>
+				<field name="ddl_type" value="Customer" type="mandatory"></field>
+				<field name="ddl_legal_entity_type" value="Education" type="mandatory"></field>
+				<field name="ddl_industry" value="Biotech" type="mandatory"></field>
+				<field name="tbx_phone" value="3039928439" type="mandatory"></field>
+			</container>
+			<container name="DunAndBradstreetData">
+			</container>
+			<container name="BilledRevenueMetrics">
+			</container>
+			<container name="SalesMetrics">
+			</container>
+			<container name="AddressInformation">
+				<field name="tbx_billing_street" value="700 W Mineral Ave"
+					type="mandatory"></field>
+				<field name="tbx_billing_city" value="Littleton" type="mandatory"></field>
+				<field name="tbx_billing_state_province" value="CO" type="mandatory"></field>
+				<field name="tbx_billing_zip_postal_code" value="80120" type="mandatory"></field>
+				<field name="tbx_billing_country" value="USA" type="mandatory"></field>
+				<field name="ddl_billing_country" value="United States" type="mandatory"></field>
+				<field name="ddl_shipping_country" value="United States" type="mandatory"></field>
+				<field name="tbx_headquarters_street" value="60 HUDSON ST"
+					type="mandatory"></field>
+				<field name="tbx_headquarters_city" value="NEW YORK" type="mandatory"></field>
+				<field name="tbx_headquarters_state_province" value="NY"
+					type="mandatory"></field>
+				<field name="tbx_headquarters_zip_postal_code" value="10013"
+					type="mandatory"></field>
+				<field name="tbx_headquarters_country" value="USA" type="mandatory"></field>
+			</container>
+			<container name="AdditionalInformation">
+			</container>
+			<container name="AccountTransferRequestInformation">
+			</container>
+			<container name="CAPInformation">
+			</container>
+			<container name="SystemInformation">
+			</container>
+		</container>
+		<container name="ServiceLocationEditPage">
+			<field name="tbx_service_location_name" value="DateTime:SL"
+				type="mandatory"></field>
+			<field name="tbx_primary_tn" value="3039928439" type="mandatory"></field>
+			<field name="tbx_service_address_line1" value="700 W Mineral Ave"
+				type="mandatory"></field>
+			<field name="tbx_service_address_line2" value="E15.26"></field>
+			<field name="tbx_city" value="Littleton" type="mandatory"></field>
+			<field name="tbx_state" value="CO" type="mandatory"></field>
+			<field name="tbx_zip" value="80120" type="mandatory"></field>
+			<field name="tbx_country" value="USA" type="mandatory"></field>
+		</container>
+		<container name="LQCommercialOptyEditPage">
+			<field name="tbx_opportunity_name" value="DateTime:LQ_Comm_Opty"
+				type="mandatory"></field>
+			<field name="tbx_account_name" value="RefreshData:approved_commercial_account"
+				type="mandatory"></field>
+			<field name="lnk_close_date" value="" type="mandatory"></field>
+			<field name="ddl_sub_type" value="New Service" type="mandatory"></field>
+			<field name="ddl_stage" value="Identified" type="mandatory"></field>
+			<field name="ddl_forecast_category" value="Omitted" type="mandatory"></field>
+			<field name="ddl_is_this_CQL_Opportunity" value="No" type="mandatory"></field>
+		</container>
+		<container name="CPQCommercialOptyEditPage">
+			<field name="tbx_opportunity_name" value="DateTime:CPQ_Comm_Opty"
+				type="mandatory"></field>
+			<field name="tbx_account_name" value="RefreshData:approved_commercial_account"
+				type="mandatory"></field>
+			<field name="lnk_close_date" value="" type="mandatory"></field>
+			<field name="ddl_sub_type" value="New Service" type="mandatory"></field>
+			<field name="ddl_stage" value="Identified" type="mandatory"></field>
+			<field name="ddl_forecast_category" value="Best Case" type="mandatory"></field>
+			<field name="ddl_network_hosting_opptys_to_be_combined" value="No"
+				type="mandatory"></field>
+		</container>
+		<container name="SavvisOptyEditPage">
+			<field name="tbx_opportunity_name" value="DateTime:Savvis_Opty"
+				type="mandatory"></field>
+			<field name="tbx_account_name" value="RefreshData:approved_commercial_account"
+				type="mandatory"></field>
+			<field name="lnk_close_date" value="" type="mandatory"></field>
+			<field name="ddl_sub_type" value="New Service" type="mandatory"></field>
+			<field name="ddl_stage" value="Identified" type="mandatory"></field>
+			<field name="ddl_forecast_category" value="Best Case" type="mandatory"></field>
+			<field name="ddl_is_ctl_network_being_ordered" value="NO"
+				type="mandatory"></field>
+			<field name="tbx_description" value="Test" type="mandatory"></field>
+		</container>
+		<container name="ContactRolesForOptyPage">
+			<field name="rbn_primary_first" value="ON" type="mandatory"></field>
+			<field name="ddl_role_first" value="Billing Contact" type="mandatory"></field>
+		</container>
+		<container name="BMQuoteEditMainPage">
+		</container>
+		<container name="BMQuoteEditLiteGIPage">
+			<field name="ddl_product_type" value="New" type="mandatory"></field>
+			<field name="tbx_recurring_charge_mrc" value="$50.00" type="mandatory"></field>
+			<field name="ddl_contract" value="CenturyLink Total Advantage Monthly Commit"
+				type="mandatory"></field>
+			<field name="tbx_contract_commit" value="100" type="mandatory"></field>
+			<field name="tbx_non_recurring_charge_nrc" value="$20.00" type="mandatory"></field>
+			<container name="ATM">
+				<field name="ddl_service_provider" value="" type="mandatory"></field>
+			</container>
+			<container name="IQ Internet">
+				<field name="ddl_reason_for_using_lite_quote"
+					value="Detailed quote not supported for my configuration" type="mandatory"></field>
+			</container>
+		</container>
+		<container name="LiteQuoteEditPage">
+			<field name="ddl_product_type" value="New" />
+			<field name="tbx_mrc" value="50" type="mandatory" />
+			<field name="tbx_otc" value="20" type="mandatory" />
+			<field name="ddl_contract_type_name" value="CenturyLink Total Advantage POM Monthly or Annual"
+				type="mandatory" />
+			<field name="tbx_term" value="12" type="mandatory" />
+			<field name="tbx_commitment" value="100" type="mandatory" />
+		</container>
+		<container name="SDPOrderSummaryEditPage">
+			<container name="OrderInformation">
+				<field name="ddl_order_type" value="" type="mandatory" />
+				<field name="ddl_is_there_voip_being_ordered" value="No" />
+				<field name="ddl_are_hosting_products_being_ordered" value="wait-1:No"
+					type="mandatory"></field>
+				<field name="ddl_service_involves_ethernet" value="No" type="mandatory" />
+				<field name="ddl_billing_account" value="Add to Existing Billing Account"
+					type="mandatory" />
+				<field name="ddl_does_this_order_have_a_host_remote_relationship"
+					value="No" type="mandatory" />
+				<field name="tbx_pramata_id" value="1234" type="mandatory" />
+				<field name="ddl_sales_group_id" value="BellSouth - BellSouth CRC - BSCOAG"
+					type="mandatory" />
+				<field name="tbx_remarks" value="Test" type="mandatory" />
+				<field name="tbx_billing_account_number" value="1234" type="mandatory"></field>
+			</container>
+			<container name="ControlCenterInformation">
+				<field name="ddl_control_center_order_type" value="Add to Existing Control Center ID"
+					type="mandatory" />
+				<field name="btn_create_ccid" value="click" type="" />
+			</container>
+			<!-- <container name="ControlCenterAdministratorSAInformation"> <field 
+				name="tbx_sa_contact_name" value="Hussey" type="mandatory" /> <field name="tbx_sa_address" 
+				value="80 Hudson" type="mandatory" /> <field name="tbx_sa_phone" value="2567854263" 
+				type="mandatory" /> <field name="tbx_sa_city" value="NewYork" type="mandatory" 
+				/> <field name="tbx_sa_cell_phone" value="8745623569" type="mandatory" /> 
+				<field name="tbx_sa_state_province" value="NY" type="mandatory" /> <field 
+				name="tbx_sa_email_address" value="test@qwest.com" type="mandatory" /> <field 
+				name="tbx_sa_zip_postal_code" value="100013" type="mandatory" /> <field name="tbx_sa_country" 
+				value="UnitedStates" type="mandatory" /> </container> -->
+			<container name="CompanyHQInformation">
+				<field name="tbx_primary_contact_name" value="Micheal" type="mandatory" />
+				<field name="tbx_primary_contact_email" value="test@qwest.com"
+					type="mandatory" />
+				<field name="ddl_primary_contact_address_same_as_hq" value="Yes"
+					type="mandatory" />
+			</container>
+			<container name="BillingInformation">
+				<field name="ddl_same_as_customer_hq_name_and_address" value="Yes" />
+				<field name="ddl_same_as_primary_contact_name_and_address"
+					value="Yes" />
+				<field name="ddl_green_fee_charge" value="Green Fee Eligible" />
+			</container>
+			<container name="DiscountInvoiceGroup">
+				<field name="ddl_discount_group" value="No Discount Group ID" />
+				<field name="ddl_invoice_group" value="N/A" />
+				<field name="ddl_will_customer_have_qc_service_contributing"
+					value="No" />
+			</container>
+			<container name="AccountsandSalesInformation">
+				<field name="tbx_cca_member_oor_sales_id" value="BA69" />
+			</container>
+		</container>
+		<container name="SMOFTemplateAddPage">
+			<field name="ddl_template_name" value="Index:1" type="mandatory"></field>
+			<field name="ddl_service_location" value="Index:1" type="mandatory"></field>
+			<field name="ddl_brand" value="Q ZERO" type="mandatory"></field>
+			<field name="tbx_customer_dd" value="Date:" type="mandatory"></field>
+			<field name="ddl_commit" value="0" type="mandatory"></field>
+			<field name="ddl_term" value="N/A" type="mandatory"></field>
+		</container>
+		<container name="SDPOrderContactPage">
+			<field name="cbx_location_contact_type_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_order_contact_type_odr" value="ON" type="mandatory"></field>
+			<field name="tbx_first_name_odr" value="Mike" type="mandatory"></field>
+			<field name="tbx_last_name_odr" value="Hussey" type="mandatory"></field>
+			<field name="tbx_email_odr" value="sfdcitv1@centrurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_primary_phonel_odr" value="2567854263" type="mandatory"></field>
+			<field name="ddl_service_location" value="Index:1" type="mandatory"></field>
+			<field name="cbx_local_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_proactive_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_technical_contact_left_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_voip_admin_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_alternate_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_customer_satisfaction_survey_odr" value="ON"
+				type="mandatory"></field>
+			<field name="cbx_denial_of_service_contact_odr" value="ON"
+				type="mandatory"></field>
+			<field name="cbx_hucs_admin_left_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_notification_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_scheduling_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_shipping_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_billing_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_main_customer_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_order_originator_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_responsible_individual_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_sales_rep_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_asr_psr_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_account_consultant_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_global_customer_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_hucs_admin_right_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_project_mgr_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_qbpp_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_slss_contact_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_sales_engineer_odr" value="ON" type="mandatory"></field>
+			<field name="cbx_technical_contact_right_odr" value="ON" type="mandatory"></field>
+		</container>
+		<container name="IOFOrderSummaryEditPage">
+			<field name="ddl_order_action" value="" type="mandatory"></field>
+			<field name="ddl_billing_account_action" value="Add to Existing Billing Account"
+				type="mandatory"></field>
+			<field name="ddl_product_account_action" value="Add to Existing Product Account"
+				type="mandatory"></field>
+			<field name="ddl_control_center_action" value="N/A" type="mandatory"></field>
+			<field name="tbx_date_received_from_customer" value="Date:"
+				type="mandatory"></field>
+			<field name="tbx_desired_due_date" value="Date:" type="mandatory"></field>
+			<field name="tbx_billing_account_number" value="123" type="mandatory"></field>
+			<field name="tbx_product_account_number" value="123" type="mandatory"></field>
+			<field name="cbx_expedite" value="ON" type=""></field>
+			<field name="cbx_is_this_partner" value="OFF" type=""></field>
+			<field name="tbx_product_account_name" value="Ramu" type=""></field>
+			<field name="tbx_billing_account_numbers_to_add_to_control_center"
+				value="Testing" type=""></field>
+			<field name="tbx_requested_expedite_date" value="Date:" type=""></field>
+		</container>
+		<container name="IOFOrderSummaryPageAdditionalInformation">
+			<field name="ddl_calnet3_related" value="No" type=""></field>
+		</container>
+		<container name="IOFOrderSummaryViewPage">
+			<field name="lbl_status" value="" type="mandatory"></field>
+		</container>
+		<container name="NoteEditPage">
+			<field name="tbx_title" value="DateTime:Title" type="mandatory"></field>
+		</container>
+		<container name="WorldCardFeatureEditPage">
+			<field name="tbx_pin_first_choice" value="1111" type="mandatory"></field>
+			<field name="tbx_pin_second_choice" value="1111" type="mandatory"></field>
+			<field name="tbx_company_name" value="Century Link" type="mandatory"></field>
+			<field name="ddl_type_of_card" value="Option S (Switched Rates with Surcharge)"
+				type="mandatory"></field>
+			<field name="tbx_shipping_address" value="CenturyLink Inc"
+				type="mandatory"></field>
+			<field name="tbx_shipping_city" value="Littleton" type="mandatory"></field>
+			<field name="tbx_shipping_state" value="CO" type="mandatory"></field>
+			<field name="tbx_shipping_zip" value="a2a2aa" type="mandatory"></field>
+			<field name="tbx_ten_digit_card_number" value="1234567890"
+				type="mandatory"></field>
+			<field name="tbx_card_holder_name" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_speciality_card_number" value="1234567890"
+				type=""></field>
+			<field name="ddl_international_dialing" value="Allow International Origination"
+				type=""></field>
+			<field name="cbx_group_shipping" value="ON" type=""></field>
+			<field name="cbx_replacement_card" value="ON" type=""></field>
+			<field name="cbx_speciality_card" value="ON" type=""></field>
+			<field name="cbx_random_card_number_and_pin" value="OFF" type=""></field>
+			<field name="cbx_same_as_headquarter_address" value="ON" type=""></field>
+			<field name="tbx_attn" value="Testing SFA" type=""></field>
+		</container>
+		<container name="IOFGeneralInformationEditPage">
+			<field name="tbx_primary_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_primary_contact_phone" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_primary_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="ddl_contract_product_code" value="CenturyLink Choice Basic"
+				type="mandatory"></field>
+			<field name="tbx_ilink_pramata_content_id" value="54321" type="mandatory"></field>
+			<field name="ddl_are_there_promo_codes" value="No" type="mandatory"></field>
+			<field name="tbx_contract_id" value="12345" type="mandatory"></field>
+			<field name="tbx_contract_signed_by_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_date_contract_countersigned" value="Date:"
+				type="mandatory"></field>
+			<field name="tbx_order_contact_for_questions_phone" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_direct_sales_rep_phone" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_customer_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_customer_contact_phone" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_customer_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_responsible_individual_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_responsible_individual_contact_phone" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_responsible_individual_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_notes_to_processor" value="DateTime:Processor_Notes"
+				type="mandatory"></field>
+			<field name="tbx_doing_business_as" value="Testing" type=""></field>
+			<field name="tbx_fax" value="3039928439" type=""></field>
+			<field name="tbx_primary_contact_fax" value="3039928439" type=""></field>
+			<field name="cbx_same_as_hq_address" value="ON" type=""></field>
+			<field name="tbx_primary_contact_address" value="700 W Mineral Ave"
+				type=""></field>
+			<field name="tbx_primary_contact_city" value="Littleton" type=""></field>
+			<field name="tbx_primary_contact_state" value="CO" type=""></field>
+			<field name="tbx_primary_contact_postal_code" value="80120"
+				type=""></field>
+			<field name="tbx_primary_contact_country" value="US" type=""></field>
+			<field name="tbx_order_contact_for_questions_fax" value="3039928439"
+				type=""></field>
+			<field name="tbx_project_number" value="Date:" type=""></field>
+			<field name="tbx_project_manager_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx__project_manager_phone_number" value="3039928439"
+				type=""></field>
+			<field name="tbx_customer_contact_fax" value="3039928439" type=""></field>
+			<field name="tbx_local_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_local_contact_phone" value="3039928439" type=""></field>
+			<field name="tbx_local_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_local_contact_fax" value="3039928439" type=""></field>
+			<field name="cbx_same_as_customer_contact" value="ON" type=""></field>
+			<field name="tbx_responsible_individual_contact_core_user_id"
+				value="111" type=""></field>
+			<field name="tbx_responsible_individual_contact_fax" value="3039928439"
+				type=""></field>
+			<field name="tbx_sales_support_rep_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_sales_support_rep_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_sales_support_rep_contact_phone" value="3039928439"
+				type=""></field>
+			<field name="tbx_sales_support_rep_contact_fax" value="3039928439"
+				type=""></field>
+			<field name="tbx_sales_engineer_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_sales_engineer_contact_phone" value="3039928439"
+				type=""></field>
+			<field name="tbx_sales_engineer_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_sales_engineer_contact_fax" value="3039928439"
+				type=""></field>
+			<field name="tbx_sales_engineer_contact_core_user_id" value="111"
+				type=""></field>
+			<!-- <field name="tbx_member_company_name" value="CenturyLink" type="mandatory"></field> 
+				<field name="tbx_oor_sales_rep_id" value="123" type="mandatory"></field> 
+				<field name="tbx_oor_sales_rep_name" value="Ramu Vairavan" type="mandatory"></field> 
+				<field name="tbx_oor_sales_rep_email" value="ramu.vairavan@centurylink.com" 
+				type="mandatory"></field> <field name="tbx_cie_approval_id" value="123" type=""></field> -->
+		</container>
+		<container name="EightXXVTEditPage">
+			<field name="tbx_8xx_number" value="8002341424" type="mandatory"></field>
+			<field name="ddl_8xx_number_status" value="Existing with CenturyLink"
+				type="mandatory"></field>
+			<field name="ddl_action" value="Add" type="mandatory"></field>
+			<field name="ddl_toll_free_coordinated_test_and_turn_up" value="Yes"
+				type="mandatory"></field>
+			<field name="cbx_us_50" value="ON" type="mandatory"></field>
+			<field name="tbx_sip_usage_trunk_group_name" value="ON" type=""></field>
+			<field name="tbx_additional_8xx_number" value="8002341424"
+				type=""></field>
+			<field name="cbx_us48" value="ON" type=""></field>
+			<field name="cbx_vi_pr" value="ON" type=""></field>
+			<field name="cbx_other" value="ON" type=""></field>
+			<field name="cbx_canada" value="ON" type=""></field>
+			<field name="cbx_itfs_uifn" value="ON" type=""></field>
+			<field name="cbx_tailored_call_coverage_tcc" value="ON" type=""></field>
+			<field name="cbx_shared_carrier_arrangement" value="ON" type=""></field>
+			<field name="cbx_interaction_routing" value="ON" type=""></field>
+			<field name="cbx_ez_routing" value="ON" type=""></field>
+			<field name="cbx_busy_ring_no_answer_brna" value="ON" type=""></field>
+			<field name="cbx_toll_free_directory_assistance" value="ON"
+				type=""></field>
+			<field name="cbx_payphone_blocking" value="ON" type=""></field>
+			<field name="cbx_pac" value="ON" type=""></field>
+			<field name="cbx_time_of_day" value="ON" type=""></field>
+			<field name="cbx_day_of_week" value="ON" type=""></field>
+			<field name="cbx_day_of_year_holiday_routing" value="ON" type=""></field>
+			<field name="cbx_quota_routing" value="ON" type=""></field>
+			<field name="cbx_alternate_call_plan" value="ON" type=""></field>
+			<field name="cbx_percentage_allocation" value="ON" type=""></field>
+			<field name="cbx_geo_routing" value="ON" type=""></field>
+			<field name="cbx_geo_plus" value="ON" type=""></field>
+			<field name="cbx_intelligent_pre_route" value="ON" type=""></field>
+			<field name="cbx_hosted_ivr" value="ON" type=""></field>
+			<field name="cbx_dto" value="ON" type=""></field>
+			<field name="cbx_supertrunk_trunks" value="ON" type=""></field>
+			<field name="cbx_in_switch_overflow_trunks" value="ON" type=""></field>
+		</container>
+		<container name="EightXXFeatureEditPage">
+			<field name="tbx_8xx_number" value="8002341424" type="mandatory"></field>
+			<field name="ddl_8xx_number_status" value="Existing with CenturyLink"
+				type="mandatory"></field>
+			<field name="ddl_action" value="Add" type="mandatory"></field>
+			<field name="cbx_us_50" value="ON" type="mandatory"></field>
+			<field name="tbx_8xx_ring_to_number" value="11111" type="mandatory"></field>
+			<field name="tbx_additional_8xx_number" value="8002341424"
+				type=""></field>
+			<field name="cbx_us48" value="ON" type=""></field>
+			<field name="cbx_vi_pr" value="ON" type=""></field>
+			<field name="cbx_other" value="ON" type=""></field>
+			<field name="cbx_canada" value="ON" type=""></field>
+			<field name="cbx_itfs_uifn" value="ON" type=""></field>
+			<field name="tbx_other_area_of_service" value="Existing with CenturyLink"
+				type=""></field>
+			<field name="cbx_tailored_call_coverage" value="ON" type=""></field>
+			<field name="cbx_shared_carrier_arrangement" value="ON" type=""></field>
+			<field name="cbx_interaction_routing" value="ON" type=""></field>
+			<field name="cbx_ez_routing" value="ON" type=""></field>
+			<field name="cbx_transfer_and_release" value="ON" type=""></field>
+			<field name="cbx_busy_ring_no_answer" value="ON" type=""></field>
+			<field name="cbx_menu_routing" value="ON" type=""></field>
+			<field name="cbx_toll_free_directory_assistance" value="ON"
+				type=""></field>
+			<field name="cbx_payphone_blocking" value="ON" type=""></field>
+			<field name="cbx_pac" value="ON" type=""></field>
+			<field name="cbx_time_of_day" value="ON" type=""></field>
+			<field name="cbx_day_of_week" value="ON" type=""></field>
+			<field name="cbx_day_of_year" value="ON" type=""></field>
+			<field name="cbx_quota_routing" value="ON" type=""></field>
+			<field name="cbx_alternate_call_plan" value="ON" type=""></field>
+			<field name="cbx_percentage_allocation" value="ON" type=""></field>
+			<field name="cbx_geo_routing" value="ON" type=""></field>
+			<field name="cbx_geo_plus" value="ON" type=""></field>
+		</container>
+		<container name="ANIFeatureEditPage">
+			<field name="tbx_phone_number_ani" value="8002341424" type="mandatory"></field>
+			<field name="ddl_change_pic_and_lpic_with_lec" value="No"
+				type="mandatory"></field>
+			<field name="ddl_ani_call_type_blocking" value="0. No Blocking"
+				type="mandatory"></field>
+			<field name="ddl_pac_action" value="None" type="mandatory"></field>
+			<field name="ddl_is_this_a_new_ani" value="No" type="mandatory"></field>
+			<field name="ddl_product_new_or_existing" value="Existing"
+				type="mandatory"></field>
+			<field name="ddl_jurisdiction" value="No" type=""></field>
+			<field name="ddl_verified_or_non_verified" value="Non-Verified"
+				type=""></field>
+			<field name="ddl_number_of_digits" value="2" type=""></field>
+			<field name="ddl_prompt" value="2 Beeps" type=""></field>
+			<field name="tbx_additional_ani" value="8002341424" type=""></field>
+			<field name="tbx_btn" value="Existing" type=""></field>
+			<field name="tbx_index" value="11111" type=""></field>
+			<field name="tbx_product_account_name" value="Ramu" type=""></field>
+			<field name="tbx_product_account_number" value="11111" type="mandatory"></field>
+		</container>
+		<container name="PACFeatureEditPage">
+			<field name="ddl_number_of_digits" value="2" type="mandatory"></field>
+			<field name="ddl_pac_action" value="New" type="mandatory"></field>
+			<field name="ddl_verified_or_non_verified" value="Non-Verified"
+				type="mandatory"></field>
+			<field name="tbx_pac_name" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_departmental_primary_pac" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_departmental_pac_number" value="8002341424"
+				type=""></field>
+			<field name="tbx_departmental_pac_name" value="Testing" type=""></field>
+			<field name="tbx_index" value="8002341424" type=""></field>
+			<field name="tbx_pac_number" value="8002341424" type=""></field>
+			<field name="tbx_pac_lower_number" value="8002341424" type=""></field>
+			<field name="tbx_pac_upper_number" value="8002341424" type=""></field>
+			<field name="ddl_new_or_existing_department_pac" value="None"
+				type=""></field>
+			<field name="ddl_prompt_type" value="2 Beeps" type=""></field>
+		</container>
+		<container name="IOFIPLDIPTFEditPage">
+			<field name="ddl_physical_access" value="CenturyLink iQ" type="mandatory"></field>
+			<field name="tbx_circuit_id" value="123456" type="mandatory"></field>
+			<field name="tbx_maximum_number_of_calls" value="233" type="mandatory"></field>
+			<field name="tbx_peak_calls_per_second" value="123" type="mandatory"></field>
+			<field name="tbx_cndc_approval" value="Testing" type="mandatory"></field>
+			<field name="tbx_remarks" value="Testing" type="mandatory"></field>
+			<field name="tbx_minutes_of_usage_per_month" value="213" type="mandatory"></field>
+			<field name="ddl_international_domestic_mix" value="100% International"
+				type="mandatory"></field>
+			<field name="ddl_precedence_1" value="G729A" type="mandatory"></field>
+			<field name="ddl_precedence_2" value="G729A" type="mandatory"></field>
+			<field name="ddl_precedence_3" value="G729A" type="mandatory"></field>
+			<field name="ddl_dtmf_options" value="In-band signaling (G.711 only)"
+				type="mandatory"></field>
+			<field name="ddl_packet_sample_size" value="20ms" type="mandatory"></field>
+			<field name="ddl_is_t38_fax_used" value="Yes" type="mandatory"></field>
+			<field name="ddl_busiest_call_period" value="03:00 - 06:00 GMT"
+				type="mandatory"></field>
+		</container>
+		<container name="IOFLDDedicatedEditPage">
+			<field name="tbx_physical_access_quantity" value="1111" type="mandatory"></field>
+			<field name="tbx_customer_name" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="tbx_service_location_name" value="Office" type="mandatory"></field>
+			<field name="tbx_street_address" value="700 W Mineral Ave"
+				type="mandatory"></field>
+			<field name="tbx_city" value="Littleton" type="mandatory"></field>
+			<field name="tbx_state" value="CO" type="mandatory"></field>
+			<field name="tbx_postal_code" value="80120" type="mandatory"></field>
+			<field name="tbx_country" value="US" type="mandatory"></field>
+			<field name="ddl_physical_access_type" value="DS1" type="mandatory"></field>
+			<field name="ddl_leased_building" value="No" type="mandatory"></field>
+			<field name="ddl_access_time_from" value="7:00 AM" type="mandatory"></field>
+			<field name="ddl_access_time_to" value="8:00 AM" type="mandatory"></field>
+			<field name="ddl_access_location_timezone" value="Pacific"
+				type="mandatory"></field>
+			<field name="ddl_is_the_site_new_construction" value="No"
+				type="mandatory"></field>
+			<field name="ddl_is_there_working_power_at_the_site" value="No"
+				type="mandatory"></field>
+			<field name="ddl_local_access_type" value="CenturyLink Provided On-Net"
+				type="mandatory"></field>
+			<field name="ddl_extend_wiring_beyond_dmarc" value="No" type="mandatory"></field>
+			<field name="tbx_orion_order" value="1111" type=""></field>
+			<field name="tbx_tsp_authorization_code" value="111" type=""></field>
+			<field name="tbx_related_order_number" value="111" type=""></field>
+			<field name="cbx_add_change_8xx_service_only" value="ON" type=""></field>
+			<field name="cbx_dedicated_voice" value="ON" type=""></field>
+			<field name="tbx_location_count" value="1111" type=""></field>
+			<field name="tbx_building" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_floor" value="Office" type=""></field>
+			<field name="tbx_room" value="1111" type=""></field>
+			<field name="tbx_site_phone" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_cell_phone" value="Office" type=""></field>
+			<field name="tbx_cross_connect_info" value="1111" type=""></field>
+			<field name="tbx_collocation_completion_date" value="Date:"
+				type=""></field>
+			<field name="tbx_circuit_id" value="111" type=""></field>
+			<field name="tbx_product_account_number" value="1111" type=""></field>
+			<field name="tbx_product_account_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_channel_assigned" value="Office" type=""></field>
+			<field name="tbx_line_conditioning_code" value="1111" type=""></field>
+			<field name="tbx_transmit_levels_db" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_receive_levels_db" value="Office" type=""></field>
+			<field name="tbx_main_billing_number" value="1111" type=""></field>
+			<field name="tbx_centrex_clli_code" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_centrex_listed_name" value="Office" type=""></field>
+			<field name="tbx_access_code" value="1111" type=""></field>
+			<field name="tbx_switch_site_for_termination" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_pseudo_ani" value="Office" type=""></field>
+			<field name="tbx_cpe_order_number" value="1111" type=""></field>
+			<field name="tbx_cpe_manufacturer" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_cpe_model" value="Office" type=""></field>
+			<field name="tbx_phone_system_manufacturer" value="1111" type=""></field>
+			<field name="tbx_csu_dsu_manufacturer" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_crouter_switch_manufacturer" value="Office"
+				type=""></field>
+			<field name="tbx_channel_bank_manufacturer" value="1111" type=""></field>
+			<field name="tbx_drop_insert_manufacturer" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_modem_manufacturer" value="Office" type=""></field>
+			<field name="cbx_cpn" value="ON" type=""></field>
+			<field name="cbx_pbx" value="ON" type=""></field>
+			<field name="cbx_key" value="ON" type=""></field>
+			<field name="cbx_centrex" value="ON" type=""></field>
+			<field name="ddl_8xx_outbound" value="No" type=""></field>
+			<field name="ddl_oc_transport" value="OC3" type=""></field>
+			<field name="ddl_diversity" value="No" type=""></field>
+			<field name="ddl_diversity_type" value="Switch" type=""></field>
+			<field name="ddl_special_construction" value="No" type=""></field>
+			<field name="ddl_different_product_account" value="No" type=""></field>
+			<field name="ddl_direction" value="2 Way (bi-directional) Default"
+				type=""></field>
+			<field name="ddl_wire" value="2 Wire/Fiber (unprotected)" type=""></field>
+			<field name="ddl_auto_dialer" value="No" type=""></field>
+			<field name="ddl_framing" value="ESF (DS1 Default)" type=""></field>
+			<field name="ddl_sealing_current" value="No" type=""></field>
+			<field name="ddl_trunk_group_required" value="New Trunk" type=""></field>
+			<field name="ddl_centrex" value="No" type=""></field>
+			<field name="ddl_signaling" value="EM 1 (Wink)" type=""></field>
+			<field name="ddl_outpulse_type" value="DTMF" type=""></field>
+			<field name="ddl_hunting_sequence" value="Most Idle" type=""></field>
+			<field name="ddl_pac_tone_required" value="No" type=""></field>
+			<field name="ddl_operator_services_dialing" value="No" type=""></field>
+			<field name="ddl_provided_dial_tone" value="No" type=""></field>
+			<field name="ddl_vns" value="No" type=""></field>
+			<field name="ddl_real_time_ani" value="No" type=""></field>
+			<field name="ddl_customer_switch_type" value="Cisco" type=""></field>
+			<field name="ddl_international_call_blocking" value="No" type=""></field>
+			<field name="ddl_is_centurylink_provided_cpe_being_ordered"
+				value="No" type=""></field>
+		</container>
+		<container name="IOFTollFreeDedicatedEditPage">
+			<field name="tbx_physical_access_quantity" value="1111" type="mandatory"></field>
+			<field name="tbx_customer_name" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="tbx_service_location_name" value="Office" type="mandatory"></field>
+			<field name="tbx_street_address" value="700 W Mineral Ave"
+				type="mandatory"></field>
+			<field name="tbx_city" value="Littleton" type="mandatory"></field>
+			<field name="tbx_state" value="CO" type="mandatory"></field>
+			<field name="tbx_postal_code" value="80120" type="mandatory"></field>
+			<field name="tbx_country" value="US" type="mandatory"></field>
+			<field name="ddl_physical_access_type" value="DS1" type="mandatory"></field>
+			<field name="ddl_leased_building" value="No" type="mandatory"></field>
+			<field name="ddl_access_time_from" value="7:00 AM" type="mandatory"></field>
+			<field name="ddl_access_time_to" value="8:00 AM" type="mandatory"></field>
+			<field name="ddl_access_location_timezone" value="Pacific"
+				type="mandatory"></field>
+			<field name="ddl_is_the_site_new_construction" value="No"
+				type="mandatory"></field>
+			<field name="ddl_is_there_working_power_at_the_site" value="No"
+				type="mandatory"></field>
+			<field name="ddl_local_access_type" value="CenturyLink Provided On-Net"
+				type="mandatory"></field>
+			<field name="ddl_extend_wiring_beyond_dmarc" value="No" type="mandatory"></field>
+			<field name="tbx_orion_order" value="1111" type=""></field>
+			<field name="tbx_tsp_authorization_code" value="111" type=""></field>
+			<field name="tbx_related_order_number" value="111" type=""></field>
+			<field name="cbx_add_change_8xx_service_only" value="ON" type=""></field>
+			<field name="cbx_dedicated_voice" value="ON" type=""></field>
+			<field name="tbx_location_count" value="1111" type=""></field>
+			<field name="tbx_building" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_floor" value="Office" type=""></field>
+			<field name="tbx_room" value="1111" type=""></field>
+			<field name="tbx_site_phone" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_cell_phone" value="Office" type=""></field>
+			<field name="tbx_cross_connect_info" value="1111" type=""></field>
+			<field name="tbx_collocation_completion_date" value="Date:"
+				type=""></field>
+			<field name="tbx_circuit_id" value="111" type=""></field>
+			<field name="tbx_product_account_number" value="1111" type=""></field>
+			<field name="tbx_product_account_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_channel_assigned" value="Office" type=""></field>
+			<field name="tbx_line_conditioning_code" value="1111" type=""></field>
+			<field name="tbx_transmit_levels_db" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_receive_levels_db" value="Office" type=""></field>
+			<field name="tbx_main_billing_number" value="1111" type=""></field>
+			<field name="tbx_centrex_clli_code" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_centrex_listed_name" value="Office" type=""></field>
+			<field name="tbx_access_code" value="1111" type=""></field>
+			<field name="tbx_switch_site_for_termination" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_pseudo_ani" value="Office" type=""></field>
+			<field name="tbx_cpe_order_number" value="1111" type=""></field>
+			<field name="tbx_cpe_manufacturer" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_cpe_model" value="Office" type=""></field>
+			<field name="tbx_phone_system_manufacturer" value="1111" type=""></field>
+			<field name="tbx_csu_dsu_manufacturer" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_crouter_switch_manufacturer" value="Office"
+				type=""></field>
+			<field name="tbx_channel_bank_manufacturer" value="1111" type=""></field>
+			<field name="tbx_drop_insert_manufacturer" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_modem_manufacturer" value="Office" type=""></field>
+			<field name="cbx_cpn" value="ON" type=""></field>
+			<field name="cbx_pbx" value="ON" type=""></field>
+			<field name="cbx_key" value="ON" type=""></field>
+			<field name="cbx_centrex" value="ON" type=""></field>
+			<field name="ddl_8xx_outbound" value="No" type=""></field>
+			<field name="ddl_oc_transport" value="OC3" type=""></field>
+			<field name="ddl_diversity" value="No" type=""></field>
+			<field name="ddl_diversity_type" value="Switch" type=""></field>
+			<field name="ddl_special_construction" value="No" type=""></field>
+			<field name="ddl_different_product_account" value="No" type=""></field>
+			<field name="ddl_direction" value="2 Way (bi-directional) Default"
+				type=""></field>
+			<field name="ddl_wire" value="2 Wire/Fiber (unprotected)" type=""></field>
+			<field name="ddl_auto_dialer" value="No" type=""></field>
+			<field name="ddl_framing" value="ESF (DS1 Default)" type=""></field>
+			<field name="ddl_sealing_current" value="No" type=""></field>
+			<field name="ddl_trunk_group_required" value="New Trunk" type=""></field>
+			<field name="ddl_centrex" value="No" type=""></field>
+			<field name="ddl_signaling" value="EM 1 (Wink)" type=""></field>
+			<field name="ddl_outpulse_type" value="DTMF" type=""></field>
+			<field name="ddl_hunting_sequence" value="Most Idle" type=""></field>
+			<field name="ddl_pac_tone_required" value="No" type=""></field>
+			<field name="ddl_operator_services_dialing" value="No" type=""></field>
+			<field name="ddl_provided_dial_tone" value="No" type=""></field>
+			<field name="ddl_vns" value="No" type=""></field>
+			<field name="ddl_real_time_ani" value="No" type=""></field>
+			<field name="ddl_customer_switch_type" value="Cisco" type=""></field>
+			<field name="ddl_international_call_blocking" value="No" type=""></field>
+			<field name="ddl_is_centurylink_provided_cpe_being_ordered"
+				value="No" type=""></field>
+		</container>
+		<container name="IOFConferencingEditPage">
+			<field name="ddl_order_type" value="Add" type="mandatory"></field>
+			<field name="ddl_order_category" value="Web Only" type="mandatory"></field>
+			<field name="cbx_ctl_web" value="ON" type="mandatory"></field>
+			<field name="cbx_per_minute_ctl_web" value="ON" type="mandatory"></field>
+			<field name="cbx_webex" value="ON" type=""></field>
+			<field name="cbx_adobe_connect" value="ON" type=""></field>
+			<field name="tbx_btn" value="ON" type="Testing"></field>
+			<field name="tbx_users_name" value="Ramu Vairavan" type=""></field>
+			<field name="tbx_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_audio_conferencing_number" value="3039928439"
+				type=""></field>
+			<field name="tbx_additional_user_1" value="Testing" type=""></field>
+			<field name="tbx_additional_user_2" value="Testing" type=""></field>
+			<field name="tbx_additional_user_3" value="Testing" type=""></field>
+			<field name="tbx_additional_user_4" value="Testing" type=""></field>
+			<field name="tbx_additional_user_5" value="Testing" type=""></field>
+			<field name="cbx_ctl_web_user_licenses" value="ON" type=""></field>
+			<field name="cbx_active_host" value="ON" type=""></field>
+			<field name="cbx_per_minute_webex" value="ON" type=""></field>
+			<field name="cbx_meeting_center" value="ON" type=""></field>
+			<field name="cbx_support_center" value="ON" type=""></field>
+			<field name="cbx_training_center" value="ON" type=""></field>
+			<field name="cbx_event_center" value="ON" type=""></field>
+			<field name="cbx_event_center_campaign" value="ON" type=""></field>
+			<field name="cbx_enterprise_edition" value="ON" type=""></field>
+			<field name="cbx_suite" value="ON" type=""></field>
+			<field name="cbx_connect" value="ON" type=""></field>
+			<field name="cbx_other" value="ON" type=""></field>
+			<field name="cbx_concurrent_user_license" value="ON" type=""></field>
+			<field name="cbx_named_organizer_host" value="ON" type=""></field>
+			<field name="cbx_seminar_room_monthly" value="ON" type=""></field>
+			<field name="cbx_seminar_room_annual" value="ON" type=""></field>
+			<field name="cbx_burst_pack" value="ON" type=""></field>
+			<field name="cbx_training_concurrent_learner" value="ON" type=""></field>
+			<field name="cbx_presenter_license" value="ON" type=""></field>
+			<field name="cbx_content_publisher" value="ON" type=""></field>
+			<field name="cbx_named_event_manager" value="ON" type=""></field>
+			<field name="cbx_captivate_license" value="ON" type=""></field>
+		</container>
+		<container name="IOFPrivateLineLegacyEditPage">
+			<field name="ddl_circuit_type" value="DS0 - 9.6k (9600 baud) - Analog"
+				type="mandatory"></field>
+			<field name="tbx_quantity_of_circuits" value="2" type="mandatory"></field>
+			<field name="ddl_telecommunications_service_priority" value="No"
+				type="mandatory"></field>
+			<field name="tbx_service_location_name_a" value="Office" type="mandatory"></field>
+			<field name="tbx_street_address_a" value="700 W Mineral Ave"
+				type="mandatory"></field>
+			<field name="tbx_city_a" value="Littleton" type="mandatory"></field>
+			<field name="tbx_state_a" value="CO" type="mandatory"></field>
+			<field name="tbx_postal_code_a" value="80120" type="mandatory"></field>
+			<field name="tbx_country_a" value="US" type="mandatory"></field>
+			<field name="ddl_access_time_from_a" value="7:00 AM" type="mandatory"></field>
+			<field name="ddl_access_time_to_a" value="8:00 AM" type="mandatory"></field>
+			<field name="ddl_access_timezone_a" value="Pacific" type="mandatory"></field>
+			<field name="ddl_local_access_type_a" value="CenturyLink Provided On-Net"
+				type="mandatory"></field>
+			<field name="tbx_service_location_name_z" value="Office" type="mandatory"></field>
+			<field name="tbx_street_address_z" value="700 W Mineral Ave"
+				type="mandatory"></field>
+			<field name="tbx_city_z" value="Littleton" type="mandatory"></field>
+			<field name="tbx_state_z" value="CO" type="mandatory"></field>
+			<field name="tbx_postal_code_z" value="80120" type="mandatory"></field>
+			<field name="tbx_country_z" value="US" type="mandatory"></field>
+			<field name="ddl_access_time_from_z" value="7:00 AM" type="mandatory"></field>
+			<field name="ddl_access_time_to_z" value="8:00 AM" type="mandatory"></field>
+			<field name="ddl_access_timezone_z" value="Pacific" type="mandatory"></field>
+			<field name="ddl_local_access_type_z" value="CenturyLink Provided On-Net"
+				type="mandatory"></field>
+			<field name="cbx_not_a_residential_site_a" value="ON" type="mandatory"></field>
+			<field name="cbx_not_a_residential_site_z" value="ON" type="mandatory"></field>
+			<field name="ddl_line_coding" value="B8ZS" type=""></field>
+			<field name="ddl_framing" value="ESF (DS1 Default)" type=""></field>
+			<field name="cbx_echo_cancellation" value="ON" type=""></field>
+			<field name="ddl_qty_of_additional_related_circuits" value="1"
+				type=""></field>
+			<field name="ddl_multiplexing_option" value="Multiplexing"
+				type=""></field>
+			<field name="ddl_does_this_circuit_have_diversity" value="No"
+				type=""></field>
+			<field name="ddl_qty_of_additional_related_circuits_z" value="1"
+				type=""></field>
+			<field name="ddl_multiplexing_option_z" value="Multiplexing"
+				type=""></field>
+			<field name="tbx_circuit_id" value="Testing" type=""></field>
+			<field name="tbx_circuit_id_lower_a" value="Testing" type=""></field>
+			<field name="tbx_circuit_id_higher_a" value="Testing" type=""></field>
+			<field name="tbx_related_circuit_a" value="Testing" type=""></field>
+			<field name="tbx_circuit_id_lower_z" value="Testing" type=""></field>
+			<field name="tbx_circuit_id_higher_z" value="Testing" type=""></field>
+			<field name="tbx_related_circuit_z" value="Testing" type=""></field>
+			<field name="tbx_building_a" value="Testing" type=""></field>
+			<field name="tbx_floor_a" value="Testing" type=""></field>
+			<field name="tbx_room_a" value="Testing" type=""></field>
+			<field name="tbx_site_phone_a" value="3039928439" type=""></field>
+			<field name="tbx_leased_contact_name_a" value="Ramu" type=""></field>
+			<field name="tbx_leased_contact_phone_a" value="3039928439"
+				type=""></field>
+			<field name="ddl_leased_building_a" value="No" type=""></field>
+			<field name="ddl_power_on_site_indicator_a" value="No" type=""></field>
+			<field name="ddl_new_construction_indicator_a" value="No" type=""></field>
+			<field name="tbx_power_activation_date_a" value="Date:" type=""></field>
+			<field name="tbx_building_z" value="Testing" type=""></field>
+			<field name="tbx_floor_z" value="Testing" type=""></field>
+			<field name="tbx_room_z" value="Testing" type=""></field>
+			<field name="tbx_site_phone_z" value="3039928439" type=""></field>
+			<field name="tbx_leased_contact_name_z" value="Ramu" type=""></field>
+			<field name="tbx_leased_contact_phone_z" value="3039928439"
+				type=""></field>
+			<field name="ddl_leased_building_z" value="No" type=""></field>
+			<field name="ddl_power_on_site_indicator_z" value="No" type=""></field>
+			<field name="ddl_new_construction_indicator_z" value="No" type=""></field>
+			<field name="tbx_power_activation_date_z" value="Date:" type=""></field>
+			<field name="tbx_phone_system_manufacturer" value="Testing"
+				type=""></field>
+			<field name="tbx_csu_dsu_manufacturer" value="Testing" type=""></field>
+			<field name="tbx_crouter_switch_manufacturer" value="Testing"
+				type=""></field>
+			<field name="tbx_channel_bank_manufacturer" value="Testing"
+				type=""></field>
+			<field name="tbx_drop_insert_manufacturer" value="Testing"
+				type=""></field>
+			<field name="tbx_modem_manufacturer" value="Testing" type=""></field>
+			<field name="cbx_pbx" value="ON" type=""></field>
+			<field name="cbx_key" value="ON" type=""></field>
+			<field name="cbx_centrex" value="ON" type=""></field>
+			<field name="ddl_new_construction_indicator_z" value="No" type=""></field>
+		</container>
+		<container name="OMSOrderSummaryEditPage">
+			<field name="ddl_order_type" value="" type="mandatory"></field>
+			<field name="ddl_sales_channel" value="Central" type="mandatory"></field>
+			<field name="tbx_desired_due_date" value="Date:" type="mandatory"></field>
+			<field name="tbx_number_of_lines_circuits" value="1" type="mandatory"></field>
+			<field name="tbx_frame_due_time" value="12" type=""></field>
+			<field name="cbx_is_this_partner_cie_related" value="OFF" type=""></field>
+			<!-- <field name="ddl_meetpoint" value="No" type=""></field> <field name="cbx_is_this_partner_cie_related" 
+				value="ON" type=""></field> <field name="ddl_assigned_sdc" value="No" type=""></field> -->
+		</container>
+		<container name="OMSOrderSummaryPageAdditionalInformation">
+		</container>
+		<container name="OMSGeneralInformationEditPage">
+			<container name="New Connect">
+				<field name="ddl_country" value="USA" type="mandatory"></field>
+				<field name="ddl_type_of_listing" value="Published" type="mandatory"></field>
+				<field name="tbx_customer_first_name" value="Ramu" type="mandatory"></field>
+				<field name="tbx_customer_last_name" value="Vairavan" type="mandatory"></field>
+				<field name="tbx_customer_phone_number" value="3039928439"
+					type="mandatory"></field>
+				<field name="tbx_customer_email_address" value="ramu.vairavan@centurylink.com"
+					type="mandatory"></field>
+				<field name="tbx_local_contact_first_name" value="Vairavan"
+					type="mandatory"></field>
+				<field name="tbx_local_contact_last_name" value="Ramu" type="mandatory"></field>
+				<field name="tbx_local_contact_phone_number" value="8439992303"
+					type="mandatory"></field>
+				<field name="ddl_service_under_contract_or_term_package"
+					value="No Contract or Term Package" type="mandatory"></field>
+				<field name="tbx_name" value="Ramu Vairavan" type="mandatory"></field>
+				<field name="tbx_street_address" value="700 W Mineral Ave"
+					type="mandatory"></field>
+				<field name="tbx_city" value="Littleton" type="mandatory"></field>
+				<field name="ddl_state_province" value="CO" type="mandatory"></field>
+				<field name="tbx_zip_postal_code" value="80120" type="mandatory"></field>
+				<field name="ddl_green_fee" value="Not Applicable" type="mandatory"></field>
+				<field name="ddl_type_of_ownership" value="Corporation" type="mandatory"></field>
+				<field name="tbx_industry" value="Communications" type="mandatory"></field>
+				<field name="tbx_authorized_parties" value="Ramu Vairavan"
+					type="mandatory"></field>
+				<field name="tbx_tax_id" value="893456" type="mandatory"></field>
+				<field name="tbx_notes_to_processor" value="DateTime:Notes"
+					type="mandatory"></field>
+				<field name="tbx_listed_address" value="700 W Mineral Ave"
+					type=""></field>
+				<field name="tbx_customer_code" value="111" type=""></field>
+				<field name="ddl_letter_of_agency" value="N/A" type=""></field>
+				<field name="tbx_customer_signed_date" value="Date:" type=""></field>
+				<field name="tbx_billing_suffix" value="Testing" type=""></field>
+				<field name="tbx_additional_account_numbers" value="Testing"
+					type=""></field>
+				<field name="tbx_related_order_request" value="Testing" type=""></field>
+				<field name="tbx_related_service_order" value="Testing" type=""></field>
+				<field name="tbx_critical_related_service_order" value="Testing"
+					type=""></field>
+				<field name="tbx_control_center_id" value="Testing" type=""></field>
+				<field name="tbx_additional_listings" value="Testing" type=""></field>
+				<field name="tbx_project_number" value="111" type=""></field>
+				<field name="tbx_project_manager_name" value="Vairavan" type=""></field>
+				<field name="tbx_project_manager_phone_number" value="8439992303"
+					type=""></field>
+				<field name="tbx_local_contact_alternate_phone" value="3039928439"
+					type=""></field>
+				<field name="ddl_contract_package_term" value="0" type=""></field>
+				<field name="ddl_waive_nrc_charges" value="No" type=""></field>
+				<field name="ddl_contract_marked_sold_in_aqcb" value="No"
+					type=""></field>
+				<field name="tbx_promo_name" value="Ramu" type=""></field>
+				<field name="tbx_pramata_id" value="8439992303" type=""></field>
+				<field name="tbx_contract_package_term_expiriration_date"
+					value="Date:" type=""></field>
+				<field name="tbx_contract_number_package_name" value="111"
+					type=""></field>
+				<field name="tbx_effective_billing_date" value="Date:" type=""></field>
+				<field name="tbx_attention_name" value="Ramu" type=""></field>
+				<field name="tbx_summary_bill" value="Testing" type=""></field>
+				<field name="tbx_di_zac" value="Ramu" type=""></field>
+				<field name="tbx_mcn" value="Testing" type=""></field>
+				<field name="tbx_purchase_order_number" value="111" type=""></field>
+				<field name="tbx_discount_group_id" value="111" type=""></field>
+				<field name="tbx_other_business_service_account" value="111"
+					type=""></field>
+				<field name="cbx_cta_contributory" value="ON" type=""></field>
+			</container>
+			<container name="Change Existing Service">
+				<field name="tbx_account_number_btn_ban" value="7362839" type="mandatory"></field>
+				<field name="tbx_customer_first_name" value="Ramu" type="mandatory"></field>
+				<field name="tbx_customer_last_name" value="Vairavan" type="mandatory"></field>
+				<field name="tbx_customer_phone_number" value="3039928439"
+					type="mandatory"></field>
+				<field name="tbx_customer_email_address" value="ramu.vairavan@centurylink.com"
+					type="mandatory"></field>
+				<field name="tbx_local_contact_first_name" value="Vairavan"
+					type="mandatory"></field>
+				<field name="tbx_local_contact_last_name" value="Ramu" type="mandatory"></field>
+				<field name="tbx_local_contact_phone_number" value="8439992303"
+					type="mandatory"></field>
+				<field name="tbx_notes_to_processor" value="DateTime:Notes"
+					type="mandatory"></field>
+			</container>
+		</container>
+		<container name="POTSServiceEditPage">
+			<field name="ddl_jacks_wiring" value="Tag at DMARC" type="mandatory"></field>
+			<field name="tbx_access_instructions" value="Test Access Instructions"
+				type="mandatory"></field>
+			<field name="ddl_appointment_time_range" value="2 Hour Window AM"
+				type="mandatory"></field>
+			<field name="tbx_number_of_jacks_needed" value="1" type=""></field>
+		</container>
+		<container name="OMSATMEditPage">
+			<field name="ddl_expedite_atm" value="No" type="mandatory"></field>
+			<field name="ddl_action_type" value="Add New Location" type="mandatory"></field>
+			<field name="ddl_jurisdiction" value="Inter-State" type="mandatory"></field>
+			<field name="ddl_atm_port_speed" value="DS1-1.544Mbps/Broadband Host"
+				type="mandatory"></field>
+			<field name="tbx_npa_nxx_of_local_service_office" value="7362839"
+				type="mandatory"></field>
+			<field name="tbx_service_location_street_address" value="700 W Mineral Ave"
+				type="mandatory"></field>
+			<field name="tbx_service_location_city" value="Littleton" type="mandatory"></field>
+			<field name="ddl_service_location_state" value="CO" type="mandatory"></field>
+			<field name="tbx_service_location_zip" value="80120" type="mandatory"></field>
+			<field name="ddl_nc" value="HCEJ-1.544MB/ESF B8ZS" type="mandatory"></field>
+			<field name="ddl_custom_nci" value="04DU9.1SN-DS1" type="mandatory"></field>
+			<field name="ddl_switch_nci" value="04DU9.1S-DS1" type="mandatory"></field>
+			<field name="tbx_site_contact_name" value="Ramu" type="mandatory"></field>
+			<field name="tbx_site_contact_tn" value="Vairavan" type="mandatory"></field>
+			<field name="tbx_site_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_end_user_who_agreed_to_expedite_amount" value="No"
+				type=""></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+			<field name="tbx_aqcb_funding_number" value="Testing" type=""></field>
+			<field name="tbx_system_design_center_engineer_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_system_design_center_engineer_tn" value="3039928439"
+				type=""></field>
+			<field name="tbx_if_yes_service_point_switch_clli" value="Testing"
+				type=""></field>
+			<field name="tbx_if_no_nearest_service_point_switch_clli"
+				value="Testing" type=""></field>
+			<field name="tbx_switch_lso_of_nearest_service_point_switch_clli"
+				value="Testing" type=""></field>
+			<field name="tbx_dlr_contact_first_last_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_dlr_contact_fax_number" value="3039928439"
+				type=""></field>
+			<field name="tbx_independent_telephone_company" value="3039928439"
+				type=""></field>
+			<field name="tbx_acna" value="Testing" type=""></field>
+			<field name="ddl_is_customer_wc_an_atm_service_point" value="No"
+				type=""></field>
+			<field name="ddl_wiring_atm" value="Tag at DMARC" type=""></field>
+			<field name="tbx_wiring_instructions" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="ddl_dlr_requested" value="No" type=""></field>
+			<field name="tbx_install_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_install_contact_tn" value="3039928439" type=""></field>
+			<field name="tbx_install_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_repair_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_repair_contact_tn" value="3039928439" type=""></field>
+			<field name="tbx_repair_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_proactive_notification_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_proactive_notification_contact_tn" value="3039928439"
+				type=""></field>
+			<field name="tbx_proactive_notification_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+			<field name="tbx_after_hour_contact_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_after_hour_contact_tn" value="3039928439"
+				type=""></field>
+			<field name="tbx_after_hour_contact_email" value="ramu.vairavan@centurylink.com"
+				type=""></field>
+		</container>
+		<container name="ATMLoopEditPage">
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="tbx_circuit_id" value="1111" type=""></field>
+			<field name="ddl_local_loop_connection" value="Access Link"
+				type=""></field>
+			<field name="ddl_speed_of_access_link" value="DS1" type=""></field>
+			<field name="ddl_protection_and_diversity_ds3_oc3_only" value="Protection"
+				type=""></field>
+			<field name="tbx_cross_connect_pvl_circuit_id" value="1111"
+				type=""></field>
+			<field name="tbx_cross_connect_pvl_order_number" value="Testing"
+				type=""></field>
+			<field name="ddl_pvl" value="SST" type=""></field>
+			<field name="ddl_cfa" value="Using Entire Facility" type=""></field>
+			<field name="tbx_cfa_id" value="Testing" type=""></field>
+			<field name="tbx_cfa_channel" value="Testing" type=""></field>
+			<field name="ddl_colocation" value="CFA" type=""></field>
+			<field name="tbx_clec_name" value="Testing" type=""></field>
+			<field name="tbx_cfa_id_colocation" value="Testing" type=""></field>
+			<field name="tbx_rpoi" value="Testing" type=""></field>
+			<field name="tbx_poi" value="Testing" type=""></field>
+			<field name="tbx_rban" value="Testing" type=""></field>
+		</container>
+		<container name="ATMCircuitPVCEditPage">
+			<field name="ddl_pvc_type" value="VCC (Virtual Chan Connection)"
+				type="mandatory"></field>
+			<field name="ddl_pvc_action" value="New" type="mandatory"></field>
+			<field name="tbx_total_bandwidth" value="111" type="mandatory"></field>
+			<field name="ddl_qos" value="CBR per 64K" type="mandatory"></field>
+			<field name="tbx_increment_quantity" value="111" type="mandatory"></field>
+			<field name="ddl_vbr_max_burst_size" value="100 Cells" type=""></field>
+			<field name="tbx_scr" value="111" type=""></field>
+			<field name="ddl_pcr" value="4xSCR for VBR-nrt" type=""></field>
+			<field name="tbx_originating_circuit_id" value="111" type="mandatory"></field>
+			<field name="tbx_contact_name" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="tbx_contact_tn_originating" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_vpi_originating" value="CO" type="mandatory"></field>
+			<field name="tbx_vci_originating" value="CO" type="mandatory"></field>
+			<field name="tbx_terminating_circuit_id" value="111" type="mandatory"></field>
+			<field name="tbx_customer_name" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="tbx_contact_tn_terminating" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_vpi_terminating" value="CO" type="mandatory"></field>
+			<field name="tbx_vci_terminating" value="CO" type="mandatory"></field>
+		</container>
+		<container name="BroadbandHostEditPage">
+			<field name="tbx_broadband_host_name" value="Ramu" type="mandatory"></field>
+			<field name="ddl_access" value="Non Restricted" type="mandatory"></field>
+			<field name="ddl_host" value="ISP" type="mandatory"></field>
+			<field name="ddl_host_supports_broadband_premium_service"
+				value="Opt In" type="mandatory"></field>
+			<field name="tbx_broadband_host_notification_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="ddl_broadband_host_bandwidth" value="3 Mbps" type=""></field>
+			<field name="ddl_3000_vcc_capacity_switch" value="No" type=""></field>
+			<field name="tbx_clli" value="Testing" type="mandatory"></field>
+			<field name="ddl_vcc_ranges_if_not_3000_vcc_default" value="VPI 1 VCI range 32-1023"
+				type="mandatory"></field>
+			<field name="tbx_custom_vcc_ranges" value="Testing" type="mandatory"></field>
+		</container>
+		<container name="OMSCentrexServiceEditPage">
+			<field name="ddl_type_of_centrex" value="Centrex Prime" type="mandatory"></field>
+			<field name="tbx_lso_npa_nxx" value="123" type="mandatory"></field>
+			<field name="ddl_switch_type" value="2B" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="ddl_protocol" value="Custom" type="mandatory"></field>
+			<field name="ddl_number_of_station_lines" value="&lt;300" type="mandatory"></field>
+			<field name="ddl_type_of_station_lines" value="Non-Blocked"
+				type="mandatory"></field>
+			<field name="tbx_number_of_spids" value="2" type="mandatory"></field>
+			<field name="tbx_fso_npa_nxx" value="123" type=""></field>
+			<field name="tbx_mileage" value="123" type=""></field>
+			<field name="tbx_independent_telephone_company" value="Ramu"
+				type=""></field>
+			<field name="tbx_number_of_network_access_registers_nars"
+				value="1" type=""></field>
+			<field name="ddl_configuration_of_nars" value="2-Way" type=""></field>
+			<field name="cbx_ucd" value="ON" type=""></field>
+			<field name="cbx_ebs" value="ON" type=""></field>
+			<field name="cbx_sls" value="ON" type=""></field>
+			<field name="cbx_pri" value="ON" type=""></field>
+			<field name="cbx_smdr" value="ON" type=""></field>
+			<field name="cbx_dfi" value="ON" type=""></field>
+			<field name="cbx_cms" value="ON" type=""></field>
+		</container>
+		<container name="CentrexLineEditPage">
+			<field name="tbx_xli_dpa_service_address" value="Testing" type="mandatory"></field>
+			<field name="tbx_xli_dpa_number" value="123" type=""></field>
+			<field name="tbx_centrex_block_name" value="123" type=""></field>
+			<field name="tbx_station_tn" value="3039928439" type=""></field>
+			<field name="tbx_primary_directory_number" value="3039928439"
+				type=""></field>
+			<field name="tbx_pic" value="111" type=""></field>
+			<field name="tbx_lpic" value="123" type=""></field>
+			<field name="tbx_line_class_code" value="123" type=""></field>
+			<field name="tbx_optional_features" value="Ramu" type=""></field>
+			<field name="tbx_hunting_sequence" value="Ramu" type=""></field>
+			<field name="tbx_wiring_and_access" value="111" type=""></field>
+			<field name="ddl_line_action" value="Add New Line" type=""></field>
+			<field name="ddl_key_set_call_appearance" value="No" type=""></field>
+			<field name="ddl_hunting" value="Multi-Line Hunt" type=""></field>
+			<field name="ddl_wiring" value="Tag at DMARC" type=""></field>
+		</container>
+		<container name="DSSUASServiceEditPage">
+			<field name="ddl_expedite" value="No" type="mandatory"></field>
+			<field name="tbx_lso_npa_nxx_clli" value="123" type="mandatory"></field>
+			<field name="ddl_switch_type" value="DMS100" type="mandatory"></field>
+			<field name="ddl_product_type" value="DSS" type="mandatory"></field>
+			<field name="tbx_quantity_of_spans" value="12" type="mandatory"></field>
+			<field name="ddl_type_of_trunks" value="Advanced" type="mandatory"></field>
+			<field name="ddl_type_of_coding" value="AMI" type="mandatory"></field>
+			<field name="ddl_framing" value="SF" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="ddl_wiring_location" value="Riding a Higher Fac - CFA"
+				type="mandatory"></field>
+			<field name="ddl_circuit_riding_a_higher_facility" value="No"
+				type="mandatory"></field>
+			<field name="tbx_number_of_in_only_trunks" value="12" type="mandatory"></field>
+			<field name="tbx_number_of_out_only_trunks" value="12" type="mandatory"></field>
+			<field name="tbx_number_of_two_way_trunks" value="12" type="mandatory"></field>
+			<field name="ddl_trunk_pulsing_in_and_out" value="DTMF" type="mandatory"></field>
+			<field name="ddl_usdo_number_of_digits_outpulsed" value="1"
+				type="mandatory"></field>
+			<field name="ddl_start_signaling_sst" value="Wink" type="mandatory"></field>
+			<field name="ddl_does_pbx_need_centurylink_dial_tone" value="No"
+				type="mandatory"></field>
+			<field name="ddl_yield_on_glare" value="CenturyLink" type="mandatory"></field>
+			<field name="ddl_hunting" value="MIDL" type="mandatory"></field>
+			<field name="ddl_did_digit_manipulation" value="No" type="mandatory"></field>
+			<field name="tbx_line_class_code_lcc" value="123" type="mandatory"></field>
+			<field name="tbx_pic" value="123" type="mandatory"></field>
+			<field name="tbx_lpic" value="123" type="mandatory"></field>
+			<field name="tbx_stn_screening_telephone_number" value="NEW"
+				type="mandatory"></field>
+			<field name="tbx_quantity_of_did_numbers" value="12" type="mandatory"></field>
+			<field name="tbx_did_number_range" value="4" type="mandatory"></field>
+			<field name="ddl_business_continuation_routing" value="No"
+				type="mandatory"></field>
+			<field name="ddl_are_did_numbers_being_ported" value="No"
+				type="mandatory"></field>
+			<field name="ddl_did_number_winback" value="2" type=""></field>
+			<field name="tbx_fso_npa_nxx_clli" value="111" type=""></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+			<field name="tbx_independent_company" value="Testing" type=""></field>
+			<field name="tbx_nc_code" value="12" type=""></field>
+			<field name="tbx_nci_code" value="12" type=""></field>
+			<field name="tbx_wiring_and_access_instructions" value="Testing"
+				type=""></field>
+			<field name="tbx_optional_features" value="Testing" type=""></field>
+			<field name="tbx_cfa_of_higher_facility" value="Testing" type=""></field>
+			<field name="tbx_scid_code_of_higher_facility" value="Testing"
+				type=""></field>
+			<field name="tbx_dlr_contact_first_list_name" value="Ramu"
+				type=""></field>
+			<field name="tbx_dls_instructions" value="Testing" type=""></field>
+			<field name="ddl_dlr_requested" value="No" type=""></field>
+			<field name="ddl_dial_tone_or_wink_and_dial_tone" value="Dial Tone (All Switch Types)"
+				type=""></field>
+			<field name="ddl_call_transfer_5ess_only" value="No" type=""></field>
+			<field name="tbx_nc_code_trunks" value="Testing" type=""></field>
+			<field name="tbx_nci_code_trunks" value="Testing" type=""></field>
+			<field name="tbx_trunk_group_tgp" value="Testing" type=""></field>
+			<field name="tbx_route_index_rti" value="Testing" type=""></field>
+			<field name="tbx_trunk_group_overflow" value="Testing" type=""></field>
+		</container>
+		<container name="OMSDS0ServiceEditPage">
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="ddl_expedite" value="No" type="mandatory"></field>
+			<field name="ddl_cpe_provider" value="CenturyLink" type="mandatory"></field>
+			<field name="ddl_product_type" value="Analog" type="mandatory"></field>
+			<field name="ddl_circuit_configuration" value="Point to Point"
+				type="mandatory"></field>
+			<field name="ddl_jurisdiction" value="Inter-state" type="mandatory"></field>
+			<field name="tbx_channel_performance_circuit_signaling" value="12"
+				type="mandatory"></field>
+			<field name="ddl_circuit_type" value="Audio Service" type="mandatory"></field>
+			<field name="ddl_interstate_surcharge" value="Apply" type="mandatory"></field>
+			<field name="tbx_circuit_type_other" value="Testing" type=""></field>
+			<field name="tbx_netwk_access_channel_nac_circuit_speed" value="Testing"
+				type=""></field>
+			<field name="tbx_who_authorized_expedite" value="Testing" type=""></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+		</container>
+		<container name="DS0CircuitLocationEditPage">
+			<field name="tbx_mileage_between_loc1_loc2" value="0" type="mandatory"></field>
+			<field name="tbx_lso_or_clli_loc1" value="Anything" type="mandatory"></field>
+			<field name="tbx_circuit_id" value="Testing" type=""></field>
+			<field name="tbx_lso_or_clli_loc2" value="Anything" type=""></field>
+			<field name="tbx_service_location_name" value="Ramu" type="mandatory"></field>
+			<field name="tbx_street_address_line_1" value="Testing" type="mandatory"></field>
+			<field name="tbx_street_address_line2" value="Testing" type=""></field>
+			<field name="tbx_city" value="Littleton" type="mandatory"></field>
+			<field name="tbx_zip" value="80120" type="mandatory"></field>
+			<field name="tbx_lcon_first_last_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_lcon_telephone_number" value="1234322345"
+				type="mandatory"></field>
+			<field name="tbx_nc_code" value="23" type="mandatory"></field>
+			<field name="tbx_nci_code" value="23" type="mandatory"></field>
+			<field name="ddl_state" value="CO" type="mandatory"></field>
+			<field name="ddl_circuit_termination_point_a" value="Central Office"
+				type="mandatory"></field>
+			<field name="ddl_circuit_termination_point_z" value="Central Office"
+				type="mandatory"></field>
+			<field name="tbx_wiring_instructions" value="Testing" type=""></field>
+			<field name="tbx_optional_features" value="Testing" type=""></field>
+			<field name="tbx_independent_telephone_company" value="Testing"
+				type=""></field>
+			<field name="tbx_usocs" value="Testing" type=""></field>
+			<!-- <field name="ddl_riding_a_higher_facility" value="CenturyLink Higher 
+				Facility" type=""></field> <field name="tbx_configuration" value="Testing" 
+				type=""></field> <field name="ddl_type_of_coding" value="AMI" type=""></field> 
+				<field name="ddl_framing" value="SF" type=""></field> <field name="tbx_cfa_of_higher_facility" 
+				value="Testing" type=""></field> <field name="tbx_scid_code_of_higher_facility" 
+				value="Testing" type=""></field> <field name="tbx_cross_connect_detail" value="Ramu 
+				Vairavan" type=""></field> <field name="tbx_dlr_requested" value="1234322345" 
+				type=""></field> <field name="tbx_dlr_contact_first_last_name" value="Ramu 
+				Vairavan" type=""></field> <field name="tbx_dlr_contact_fax_number" value="1234322345" 
+				type=""></field> <field name="ddl_riding_sonet_shns_sst" value="Testing" 
+				type=""></field> <field name="tbx_sonet_shns_sst_cfa" value="Testing" type=""></field> 
+				<field name="tbx_sonet_shns_sst_scid_code" value="Testing" type=""></field> 
+				<field name="tbx_24_hour_emergency_contact" value="Testing" type=""></field> 
+				<field name="tbx_24_hour_emergency_phone" value="1234322345" type=""></field> -->
+			<field name="tbx_service_location_name_loc2" value="Testing"
+				type=""></field>
+			<field name="tbx_street_address_line1_loc2" value="Testing"
+				type=""></field>
+			<field name="tbx_street_address_line2_loc2" value="Testing"
+				type=""></field>
+			<field name="tbx_city_loc2" value="Littleton" type=""></field>
+			<field name="ddl_state_loc2" value="CO" type=""></field>
+			<field name="tbx_zip_loc2" value="80120" type=""></field>
+			<field name="tbx_lcon_firstname_lastname_loc2" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_lcon_telephone_number_loc2" value="1234322345"
+				type=""></field>
+			<field name="tbx_nc_code_loc2" value="23" type=""></field>
+			<field name="tbx_nci_code_loc2" value="23" type=""></field>
+			<field name="tbx_wiring_instructions_loc2" value="Testing"
+				type=""></field>
+			<field name="tbx_independent_telephone_company_z" value="Testing"
+				type=""></field>
+			<field name="tbx_optional_features_z" value="Testing" type=""></field>
+			<field name="tbx_usocs_z" value="Testing" type=""></field>
+			<!-- <field name="ddl_riding_a_higher_facility_z" value="CenturyLink Higher 
+				Facility" type=""></field> <field name="tbx_configuration_loc2" value="Testing" 
+				type=""></field> <field name="ddl_type_of_coding_loc2" value="AMI" type=""></field> 
+				<field name="ddl_framing_loc2" value="SF" type=""></field> <field name="tbx_cfa_of_higher_facility_z" 
+				value="Testing" type=""></field> <field name="tbx_scid_code_of_higher_facility_z" 
+				value="Testing" type=""></field> <field name="tbx_cross_connect_detail_z" 
+				value="Ramu Vairavan" type=""></field> <field name="tbx_dlr_requested_z" 
+				value="1234322345" type=""></field> <field name="tbx_dlr_contact_first_last_name_z" 
+				value="Ramu Vairavan" type=""></field> <field name="tbx_dlr_contact_fax_number_z" 
+				value="1234322345" type=""></field> <field name="ddl_riding_sonet_shns_sst_z" 
+				value="Testing" type=""></field> <field name="tbx_sonet_shns_sst_cfa_z" value="Testing" 
+				type=""></field> <field name="tbx_sonet_shns_sst_scid_code_z" value="Testing" 
+				type=""></field> <field name="tbx_24_hour_emergency_contact_z" value="Testing" 
+				type=""></field> <field name="tbx_24_hour_emergency_phone_z" value="1234322345" 
+				type=""></field> -->
+		</container>
+		<container name="OMSFrameServiceEditPage">
+			<field name="ddl_expedite" value="No" type="mandatory"></field>
+			<field name="ddl_action_type" value="Add New Location" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="ddl_jurisdiction" value="Inter-State" type="mandatory"></field>
+			<field name="ddl_interface_type" value="UNI-User Network Interface"
+				type="mandatory"></field>
+			<field name="tbx_acna" value="Testing" type="mandatory"></field>
+			<field name="tbx_end_user_who_agreed_to_expedite_amount" value="Testing"
+				type=""></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+		</container>
+		<container name="FrameLocationEditPage">
+			<field name="tbx_npa_nxx_of_local_service_office" value="Ramu"
+				type="mandatory"></field>
+			<field name="tbx_site_contact_name" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="tbx_site_contact_tn" value="3039928439" type="mandatory"></field>
+			<field name="tbx_site_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_install_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_install_contact_tn" value="3039928439" type="mandatory"></field>
+			<field name="tbx_install_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_repair_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_repair_contact_tn" value="3039928439" type="mandatory"></field>
+			<field name="tbx_repair_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_proactive_notification_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_proactive_notification_contact_tn" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_proactive_notification_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="tbx_after_hour_contact_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_after_hour_contact_tn" value="3039928439"
+				type="mandatory"></field>
+			<field name="tbx_after_hour_contact_email" value="ramu.vairavan@centurylink.com"
+				type="mandatory"></field>
+			<field name="ddl_service_type" value="56K" type="mandatory"></field>
+			<field name="ddl_wiring_frame_location" value="Riding Higher Facility"
+				type="mandatory"></field>
+			<field name="ddl_riding_a_higher_facility" value="No" type="mandatory"></field>
+			<field name="tbx_circuit_id" value="Testing" type=""></field>
+			<field name="tbx_independent_telephone_company" value="Testing"
+				type=""></field>
+			<field name="tbx_signaling_if_not_b8zs_ansi_esf_for_t1" value="Testing"
+				type=""></field>
+			<field name="tbx_working_number_at_new_location" value="Testing"
+				type=""></field>
+			<field name="ddl_link_management" value="Auto" type=""></field>
+			<field name="ddl_dlr_requested" value="No" type=""></field>
+			<field name="tbx_service_location_name" value="Testing" type=""></field>
+			<field name="tbx_street_address_line_1" value="Testing" type=""></field>
+			<field name="tbx_street_address_line_2" value="Testing" type=""></field>
+			<field name="tbx_city" value="Testing" type=""></field>
+			<field name="ddl_state" value="CO" type=""></field>
+			<field name="tbx_zip" value="80120" type=""></field>
+			<field name="tbx_wiring_instruction" value="Testing" type=""></field>
+			<field name="tbx_cfa_higher_facility" value="Testing" type=""></field>
+			<field name="tbx_dlr_contact_first_last_night" value="Testing"
+				type=""></field>
+			<field name="tbx_dlr_contact_fax_number" value="Testing" type=""></field>
+		</container>
+		<container name="OMSOpticalServiceEditPage">
+			<field name="ddl_expedite" value="No" type="mandatory"></field>
+			<field name="ddl_sst_bandwidth" value="OC3" type="mandatory"></field>
+			<field name="ddl_concatenated" value="No" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="ddl_circuit_configuration" value="Point to Point"
+				type="mandatory"></field>
+			<field name="ddl_jurisdiction" value="Inter-state" type="mandatory"></field>
+			<field name="ddl_cpe_provider" value="CenturyLink" type="mandatory"></field>
+			<field name="ddl_interstate_surcharge" value="Apply" type="mandatory"></field>
+			<field name="tbx_mileage" value="111" type="mandatory"></field>
+			<field name="tbx_aqcb_funding_number" value="111" type="mandatory"></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+			<field name="tbx_who_authorized_expedite" value="Testing" type=""></field>
+			<field name="tbx_other" value="Testing" type=""></field>
+			<field name="tbx_circuit_id" value="111" type=""></field>
+			<field name="tbx_class_of_service" value="Testing" type=""></field>
+			<container name="AdditionalInformation">
+				<field name="ddl_optical_interface" value="SST" type=""></field>
+			</container>
+		</container>
+		<container name="OpticalServiceCircuitLocationEditPage">
+			<field name="tbx_clo" value="0" type="mandatory"></field>
+			<field name="tbx_lso_or_clli_a" value="Anything" type="mandatory"></field>
+			<field name="tbx_lso_swc_clli_z" value="Anything" type="mandatory"></field>
+			<field name="tbx_lcon_first_last_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_lcon_telephone_number" value="1234322345"
+				type="mandatory"></field>
+			<field name="tbx_nc_code_a" value="23" type="mandatory"></field>
+			<field name="tbx_nci_code_a" value="23" type="mandatory"></field>
+			<field name="ddl_circuit_termination_point_a" value="Central Office"
+				type="mandatory"></field>
+			<field name="ddl_circuit_termination_point_z" value="Central Office"
+				type="mandatory"></field>
+			<field name="tbx_nc_code_z" value="23" type="mandatory"></field>
+			<field name="tbx_nci_code_z" value="23" type="mandatory"></field>
+			<field name="tbx_service_location_name" value="Ramu" type=""></field>
+			<field name="tbx_street_address_line_1" value="Testing" type=""></field>
+			<field name="tbx_city" value="Littleton" type=""></field>
+			<field name="tbx_zip" value="80120" type=""></field>
+			<field name="ddl_state" value="CO" type=""></field>
+			<field name="tbx_service_location_name_z" value="Ramu" type=""></field>
+			<field name="tbx_street_address_line_1_z" value="Testing" type=""></field>
+			<field name="tbx_street_address_line_2_z" value="Testing" type=""></field>
+			<field name="tbx_city_z" value="Littleton" type=""></field>
+			<field name="tbx_zip_z" value="80120" type=""></field>
+			<field name="ddl_state_z" value="CO" type=""></field>
+			<field name="tbx_clo_z" value="0" type=""></field>
+			<field name="tbx_lcon_first_last_name_z" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_lcon_telephone_number_z" value="1234322345"
+				type=""></field>
+			<field name="tbx_customer_location_clli_a" value="Anything"
+				type=""></field>
+			<field name="tbx_customer_location_clli_z" value="Anything"
+				type=""></field>
+			<field name="tbx_independent_telephone_company_a" value="Anything"
+				type=""></field>
+			<field name="tbx_independent_telephone_company_z" value="Anything"
+				type=""></field>
+			<field name="ddl_dlr_requested_a" value="No" type=""></field>
+			<field name="ddl_dlr_requested_z" value="No" type=""></field>
+			<field name="tbx_dlr_contact_first_last_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_dlr_contact_first_last_name_z" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_dlr_contact_fax_number" value="6124120782"
+				type=""></field>
+			<field name="tbx_dlr_contact_fax_number_z" value="6124120782"
+				type=""></field>
+			<field name="tbx_scid_code_a" value="111" type=""></field>
+			<field name="tbx_scid_code_z" value="111" type=""></field>
+			<field name="tbx_dwid_code_a" value="111" type=""></field>
+			<field name="tbx_dwid_code_z" value="111" type=""></field>
+			<field name="tbx_optional_features_a" value="testing" type=""></field>
+			<field name="tbx_optional_features_z" value="testing" type=""></field>
+			<field name="tbx_usocs_a" value="testing" type=""></field>
+			<field name="tbx_usocs_z" value="testing" type=""></field>
+			<field name="tbx_wiring_instruction" value="testing" type=""></field>
+			<field name="tbx_wiring_instruction_z" value="testing" type=""></field>
+			<field name="tbx_cross_connect_details" value="testing" type=""></field>
+			<field name="tbx_cross_connect_details_z" value="testing" type=""></field>
+			<field name="tbx_port_speed_a" value="testing" type=""></field>
+			<field name="tbx_port_speed_z" value="testing" type=""></field>
+			<field name="tbx_additional_port_information_a" value="testing"
+				type=""></field>
+			<field name="tbx_additional_port_information_z" value="testing"
+				type=""></field>
+		</container>
+		<container name="NodeLocationEditPage">
+			<field name="tbx_clo" value="0" type="mandatory"></field>
+			<field name="tbx_lso_or_clli" value="Anything" type="mandatory"></field>
+			<field name="tbx_lcon_first_last_name" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="tbx_lcon_telephone_number" value="1234322345"
+				type="mandatory"></field>
+			<field name="tbx_nc_code" value="23" type="mandatory"></field>
+			<field name="tbx_nci_code" value="23" type="mandatory"></field>
+			<field name="ddl_circuit_termination_point" value="Central Office"
+				type="mandatory"></field>
+			<field name="tbx_service_location_name" value="Ramu" type=""></field>
+			<field name="tbx_street_address_line_1" value="Testing" type=""></field>
+			<field name="tbx_city" value="Littleton" type=""></field>
+			<field name="tbx_zip" value="80120" type=""></field>
+			<field name="ddl_state" value="CO" type=""></field>
+			<field name="tbx_customer_location_clli" value="Anything" type=""></field>
+			<field name="tbx_independent_telephone_company" value="Anything"
+				type=""></field>
+			<field name="ddl_dlr_requested" value="No" type=""></field>
+			<field name="tbx_dlr_contact_first_last_name" value="Ramu Vairavan"
+				type=""></field>
+			<field name="tbx_dlr_contact_fax_number" value="6124120782"
+				type=""></field>
+			<field name="tbx_scid_code" value="111" type=""></field>
+			<field name="tbx_dwid_code" value="111" type=""></field>
+			<field name="tbx_optional_features" value="testing" type=""></field>
+			<field name="tbx_usocs" value="testing" type=""></field>
+			<field name="tbx_wiring_instruction" value="testing" type=""></field>
+			<field name="tbx_cross_connect_details" value="testing" type=""></field>
+			<field name="tbx_port_speed" value="testing" type=""></field>
+			<field name="tbx_additional_port_information" value="testing"
+				type=""></field>
+		</container>
+		<container name="OMSISDNProductDetailsEditPage">
+			<field name="ddl_switch_type" value="5ESS" type="mandatory"></field>
+			<field name="tbx_cstomer_equipment" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="tbx_lso_npa_nxx" value="Ramu Vairavan" type="mandatory"></field>
+			<field name="ddl_wiring" value="No Dispatch Needed" type="mandatory"></field>
+			<field name="tbx_wiring_and_access" value="Testing" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="tbx_fso_npa_nxx" value="Testing" type=""></field>
+			<field name="tbx_mileage" value="0" type=""></field>
+			<field name="tbx_independent_telephone_company" value="Testing"
+				type=""></field>
+			<field name="ddl_backhaul_or_host_remote" value="Backhaul"
+				type=""></field>
+		</container>
+		<container name="SLSISDNLoopEditPage">
+			<field name="ddl_protocol" value="Custom" type="mandatory"></field>
+			<field name="ddl_circuit_switched_channel_option" value="Voice"
+				type="mandatory"></field>
+			<field name="tbx_capability_package_ordering_code" value="Ramu Vairavan"
+				type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+		</container>
+		<container name="SLSISDNLineEditPage">
+			<field name="tbx_pic" value="Ramu" type="mandatory"></field>
+			<field name="tbx_lpic" value="Vairavan" type="mandatory"></field>
+			<field name="ddl_hunting" value="No" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="tbx_circuit_id" value="Ramu" type=""></field>
+			<field name="tbx_primary_directory_number" value="6124120782"
+				type=""></field>
+			<field name="tbx_line_class_code" value="No" type=""></field>
+			<field name="tbx_optional_features" value="Testing" type=""></field>
+			<field name="ddl_line_action" value="Add New Line" type=""></field>
+			<field name="ddl_ip_centrex_prime" value="No" type=""></field>
+			<field name="ddl_key_set_call_appearence" value="No" type=""></field>
+			<field name="cbx_lsid" value="ON" type=""></field>
+			<field name="cbx_csrt" value="ON" type=""></field>
+			<field name="cbx_ecc" value="ON" type=""></field>
+		</container>
+		<container name="OMSTrunkServiceEditPage">
+			<field name="ddl_expedite" value="No" type="mandatory"></field>
+			<field name="ddl_switch_type" value="5ESS" type="mandatory"></field>
+			<field name="tbx_los_npa_nxx_clli" value="Testing" type="mandatory"></field>
+			<field name="tbx_wiring_and_access_instructions" value="Voice"
+				type="mandatory"></field>
+			<field name="ddl_wiring_location" value="Base DMARC Tag" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="tbx_who_authorized_expedite" value="Testing" type=""></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+			<field name="tbx_fso_npa_nxx_clli" value="Testing" type=""></field>
+			<field name="tbx_ico_independent_company" value="Testing" type=""></field>
+			<field name="tbx_pic" value="Testing" type=""></field>
+			<field name="tbx_lpic" value="Testing" type=""></field>
+			<field name="tbx_number_of_in_only_trunks" value="Testing"
+				type=""></field>
+			<field name="tbx_number_of_out_only_trunks" value="Testing"
+				type=""></field>
+			<field name="tbx_number_of_two_way_pbx_trunks" value="Testing"
+				type=""></field>
+			<field name="tbx_series_hunting" value="Testing" type=""></field>
+			<field name="tbx_multi_line_hunting" value="Testing" type=""></field>
+			<field name="tbx_optional_pbx_features" value="Testing" type=""></field>
+			<field name="tbx_line_class_code_lcc" value="Testing" type=""></field>
+			<field name="ddl_trunk_rating_1" value="Flat Rate" type=""></field>
+			<field name="ddl_trunk_rating_2" value="Flat Rate" type=""></field>
+			<field name="ddl_trunk_rating_3" value="Flat Rate" type=""></field>
+			<field name="ddl_pbx_ground_or_loop_start" value="Ground Start"
+				type=""></field>
+			<field name="tbx_number_of_in_only_did_trunks" value="Testing"
+				type=""></field>
+			<field name="tbx_trunk_group" value="Testing" type=""></field>
+			<field name="tbx_number_of_two_way_did_trunks" value="Testing"
+				type=""></field>
+			<field name="tbx_rout_index_rti" value="Testing" type=""></field>
+			<field name="tbx_trunk_group_overflow" value="Testing" type=""></field>
+			<field name="tbx_did_screening_tn_stn" value="Testing" type=""></field>
+			<field name="tbx_quantity_of_did_numbers" value="Testing" type=""></field>
+			<field name="tbx_did_number_range" value="Testing" type=""></field>
+			<field name="tbx_line_class_code" value="Testing" type=""></field>
+			<field name="tbx_nc_code" value="Testing" type=""></field>
+			<field name="tbx_optional_did_features" value="Testing" type=""></field>
+			<field name="ddl_trunk_pulsing_in_and_out" value="DTMF" type=""></field>
+			<field name="ddl_start_signalling_call_from_co_to_pbx" value="Wink"
+				type=""></field>
+			<field name="ddl_does_pbx_need_centurylink_dial_tone" value="No"
+				type=""></field>
+			<field name="ddl_yield_on_glare" value="CenturyLink" type=""></field>
+			<field name="ddl_did_digit_manipulation" value="No" type=""></field>
+			<field name="ddl_call_transfer_5ess_only" value="No" type=""></field>
+			<field name="ddl_uso_number_of_digits_outpulsed" value="0"
+				type=""></field>
+			<field name="ddl_dial_tone_or_wink_and_dial_tone" value="Dial Tone (All Switch Types)"
+				type=""></field>
+			<field name="ddl_hunting" value="MIDL" type=""></field>
+			<field name="ddl_nci_code" value="04EA2.E" type=""></field>
+			<field name="ddl_are_did_numbers_being_ported" value="No" type=""></field>
+			<field name="ddl_did_numbers_winback" value="No" type=""></field>
+		</container>
+		<container name="OMSDS3ServiceEditPage">
+			<field name="ddl_expedite" value="No" type="mandatory"></field>
+			<field name="ddl_cpe_provider" value="CenturyLink" type="mandatory"></field>
+			<field name="ddl_jurisdiction" value="Inter-state" type="mandatory"></field>
+			<field name="ddl_interstate_surcharge" value="Apply" type="mandatory"></field>
+			<field name="ddl_currency" value="USD - U.S. Dollar" type="mandatory"></field>
+			<field name="ddl_is_ds3_to_be_mixed" value="No MUX" type="mandatory"></field>
+			<field name="tbx_aqcb_funding_number" value="1234" type="mandatory"></field>
+			<field name="tbx_who_authorized_expedite" value="Testing" type=""></field>
+			<field name="tbx_expedite_amount_agreed_to" value="0" type=""></field>
+			<field name="tbx_custom_mux_description" value="Testing" type=""></field>
+		</container>
+		<container name="BusinessLinesEditPage">
+			<field name="ddl_action" value="Add New Line" type="mandatory"></field>
+			<field name="tbx_action_description" value="Test adding a line"
+				type="mandatory"></field>
+			<field name="tbx_telephone_number" value="3039928439" type="mandatory"></field>
+			<field name="tbx_pic" value="123" type="mandatory"></field>
+			<field name="tbx_lpic" value="456" type="mandatory"></field>
+			<field name="cbx_no_features" value="ON" type="mandatory"></field>
+			<field name="cbx_no_blocking" value="ON" type="mandatory"></field>
+			<field name="ddl_line_usoc" value="1FB  - Flat Rate Line" type="mandatory"></field>
+			<field name="tbx_other" value="Testing" type=""></field>
+			<field name="tbx_calling_plan" value="Testing" type=""></field>
+			<field name="cbx_call_transfer" value="OFF" type=""></field>
+			<field name="cbx_custom_ringing" value="OFF" type=""></field>
+			<field name="cbx_dial_lock" value="OFF" type=""></field>
+			<field name="cbx_3_way_calling" value="OFF" type=""></field>
+			<field name="cbx_wire_maintenance" value="OFF" type=""></field>
+			<field name="cbx_voice_mail" value="OFF" type=""></field>
+			<field name="cbx_caller_id" value="OFF" type=""></field>
+			<field name="cbx_call_waiting" value="OFF" type=""></field>
+			<field name="cbx_call_forwarding_variable" value="OFF" type=""></field>
+			<field name="cbx_da_call_allowance" value="OFF" type=""></field>
+			<field name="cbx_last_call_return" value="OFF" type=""></field>
+			<field name="cbx_did_mailbox" value="OFF" type=""></field>
+			<field name="cbx_voicemail_router" value="OFF" type=""></field>
+			<field name="cbx_voice_pack_rmg_only" value="OFF" type=""></field>
+			<field name="cbx_virtual_receptionist_only_rmg_only" value="OFF"
+				type=""></field>
+			<field name="tbx_call_forwarding_dont_answer" value="Testing"
+				type=""></field>
+			<field name="tbx_series_hunting" value="Testing" type=""></field>
+			<field name="tbx_multi_line_hunting" value="Testing" type=""></field>
+			<field name="tbx_call_forwarding_busy_dont_answer" value="Testing"
+				type=""></field>
+			<field name="tbx_custom_ring_number" value="Testing" type=""></field>
+			<field name="tbx_call_forwarding_busy_line" value="Testing"
+				type=""></field>
+			<field name="tbx_other_features" value="Testing" type=""></field>
+			<field name="tbx_voicemail_router_instructions" value="Testing"
+				type=""></field>
+			<field name="ddl_custom_ring_type" value="A - Short Short Ring"
+				type=""></field>
+			<field name="ddl_call_forward_dont_answer_ring_cycle" value="1"
+				type=""></field>
+			<field name="cbx_pay_per_use_calls" value="OFF" type=""></field>
+			<field name="cbx_domestic_long_distance" value="OFF" type=""></field>
+			<field name="cbx_pay_per_call" value="OFF" type=""></field>
+			<field name="cbx_internation_long_distance" value="OFF" type=""></field>
+			<field name="cbx_collect_call" value="OFF" type=""></field>
+			<field name="cbx_carrier_access_code" value="OFF" type=""></field>
+			<field name="cbx_calling_card" value="OFF" type=""></field>
+			<field name="cbx_third_party_bill" value="OFF" type=""></field>
+			<field name="tbx_other_blocks" value="Testing" type=""></field>
+		</container>
+		<container name="ManualOrdersEditPage">
+			<field name="ddl_order_system_id" value="" type="mandatory"></field>
+			<field name="tbx_order_number" value="DateTime:1234" type="mandatory"></field>
+			<field name="tbx_billing_account_number" value="457237824"
+				type="mandatory"></field>
+		</container>
+		<container name="ProductSelectionForOptyPage">
+			<field name="ddl_by_field_filter" value="Product Name" type="mandatory"></field>
+			<field name="ddl_by_field_equals_to_paramter" value="equals"
+				type="mandatory"></field>
+			<field name="tbx_product" value="" type="mandatory"></field>
+		</container>
+		<container name="AddProductsForOptyPage">
+			<field name="tbx_mrc" value="100" type="mandatory"></field>
+			<field name="tbx_otc" value="50" type="mandatory"></field>
+			<field name="tbx_nrc" value="50" type="mandatory"></field>
+		</container>
+		<container name="ProvisioningOrderEditPage">
+			<field name="tbx_orion_order_number" value="602384204" type="mandatory"></field>
+			<field name="tbx_billing_account_number" value="84247513" type="mandatory"></field>
+		</container>
+		<container name="SalesLeadEditPage">
+			<container name="LeadInformation">
+				<field name="tbx_last_name" value="DateTime:Sales_Lead" type="mandatory" />
+				<field name="ddl_lead_source" value="Chat" type="mandatory" />
+				<field name="tbx_company" value="DateTime:Company" type="mandatory" />
+				<field name="tbx_phone" value="3031234567" type="mandatory" />
+			</container>
+			<container name="AddressInformation">
+				<field name="ddl_country" value="United States" type="mandatory" />
+			</container>
+		</container>
+		<container name="LCTSNSPEditPage">
+			<field name="ddl_solution_scope" value="LCTS Services Only?" type="mandatory" />
+			<field name="ddl_nsp_status" value="Big Machine Quote" type="mandatory" />
+		</container>
+		<container name="NSPEditPage">
+		<field name="ddl_request_type" value="New Contract" type="mandatory" />
+		<field name="ddl_request_contract_term" value="24" type="mandatory" />
+		<field name="ddl_entities_providing_service" value="QCC" type="mandatory" />
+		<field name="tbx_monthly_commit" value="100" type="mandatory" />
+		<field name="ddl_commit_type" value="New" type="mandatory" />
+		<field name="ddl_revenue_type" value="Retention" type="mandatory" />
+		<field name="tbx_anticipated_monthly_revenue" value="15000" type="mandatory" />
+		<field name="ddl_partner_related" value="No" type="mandatory" />
+		<field name="ddl_centurylink_network_design" value="No" type="mandatory" />
+		<field name="tbx_new_comments" value="test" type="mandatory" />
+		<field name="tbx_nsp_anticipated_nrc" value="255" />
+		<field name= "tbx_existing_monthly_revenue_ilec" value="256"  />
+		<field name= "tbx_existing_monthly_revenue_ixc" value="356"  />
+		<field name="ddl_erate_470" value="No" type="mandatory" />
+		</container>
+		<container name="CustomLabelViewPage">
+			<field name="ddl_view" value="Credit Check Override" type="mandatory" />
+		</container>
+
+	</container>
+	</container>
+</container>
